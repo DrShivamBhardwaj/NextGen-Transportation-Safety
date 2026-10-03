@@ -8,7 +8,7 @@
   "invariant_tests_passed": 15,
   "source_event_license": "CC0",
   "sha256": {
-    "code/README.md": "f79d7fbceccc904adecafa32454ed65655894285d0030ae4b844b9a7e5ee64d3",
+    "code/README.md": "16c7b0866599c83172edb0675a154dfe643a116eaeb6958fec97a3e71ed5094c",
     "code/eventstudy.py": "bce74da27316a851d8702e664e08cb67a858ccb5e448aaa7c63407d95265318c",
     "code/fusion.py": "60e88b6d958d0710fe107e43b1034f0d821b575cf59eade0b252068514d0c7a2",
     "code/plot_results.py": "4459c21ed90949db0ee2a86734e14d653e31f06469c34c8eb31f03404f0a54a2",
