@@ -26,34 +26,64 @@ def box(ax,x,y,w,h,label,fill="#f4f6f8",edge="#526170",dashed=False):
     ax.add_patch(p);ax.text(x+w/2,y+h/2,label,ha="center",va="center",fontsize=9,fontfamily="sans-serif")
 def arrow(ax,start,end):
     ax.add_patch(FancyArrowPatch(start,end,arrowstyle="-|>",mutation_scale=10,lw=1,color="#425260"))
-fig,ax=plt.subplots(figsize=(7.05,4.65));ax.set_xlim(0,1);ax.set_ylim(0,1);ax.axis("off")
-ax.add_patch(Rectangle((.015,.59),.97,.39,fill=False,ls="--",ec="#909ba6",lw=1))
-ax.text(.035,.952,"Perception interfaces specified; raw-camera models are outside this evaluation",
-        ha="left",va="center",fontsize=9,fontfamily="sans-serif")
-xs=[.04,.355,.67]
-for x,l1,l2,l3 in zip(xs,["Driver camera","Road camera","Vehicle signals"],
- ["Emotion and driver-state\nnetwork","Vehicle detection\nand tracking","Kinematic estimation"],
- ["Driver score\nand quality","Hazard score\nand quality","Telemetry score\nand quality"]):
-    box(ax,x,.805,.29,.082,l1,dashed=True)
-    box(ax,x,.687,.29,.087,l2,dashed=True)
-    arrow(ax,(x+.145,.802),(x+.145,.776))
-    box(ax,x,.545,.29,.09,l3,fill="#e7eef5")
-    arrow(ax,(x+.145,.683),(x+.145,.637))
-ax.text(.035,.495,"Executed causal fusion and prospective evaluation",
-        ha="left",va="center",fontsize=9,fontfamily="sans-serif",fontweight="bold")
-box(ax,.05,.33,.28,.11,"Availability and quality\nnormalization",fill="#e7eef5")
-box(ax,.36,.33,.28,.11,"Causal memory and\ncross-modal interactions",fill="#e7eef5")
-box(ax,.67,.33,.28,.11,"Calibrated logistic fusion\nor matched neural fusion",fill="#e7eef5")
-for x in xs:
-    ax.plot([x+.145,x+.145],[.541,.465],color="#425260",lw=1)
-ax.plot([.19,.815],[.465,.465],color="#425260",lw=1)
-arrow(ax,(.19,.465),(.19,.443))
-arrow(ax,(.335,.385),(.355,.385));arrow(ax,(.645,.385),(.665,.385))
-box(ax,.36,.16,.28,.11,"Probability, numerical flag\nand availability status",fill="#e7eef5")
-arrow(ax,(.81,.326),(.81,.213));arrow(ax,(.81,.213),(.645,.213))
-ax.text(.5,.075,"Evidence: synthetic score sequences + participant-disjoint simulator event logs",
-        ha="center",va="center",fontsize=9,fontfamily="sans-serif")
-save(fig,"Figure_1_Framework")
+def draw_framework():
+    """Draw the specified interfaces and the evaluated scalar decision flow."""
+    with plt.rc_context({"svg.fonttype": "none"}):
+        fig, ax = plt.subplots(figsize=(7.05, 4.18))
+        ax.set_xlim(0, 10.4)
+        ax.set_ylim(0, 6.25)
+        ax.axis("off")
+        ink = "#263a4a"
+        muted = "#717b84"
+        blue = "#eaf0f5"
+
+        def node(x, y, width, height, label, specified=False, size=9.2):
+            ax.add_patch(Rectangle((x, y), width, height,
+                facecolor="white" if specified else blue,
+                edgecolor=muted if specified else ink, linewidth=0.9,
+                linestyle=(0, (4, 3)) if specified else "-"))
+            ax.text(x + width / 2, y + height / 2, label,
+                ha="center", va="center", fontsize=size,
+                fontfamily="DejaVu Sans", color=ink, linespacing=1.18)
+
+        def link(start, end, specified=False):
+            ax.add_patch(FancyArrowPatch(start, end, arrowstyle="-|>",
+                mutation_scale=9, linewidth=0.9,
+                color=muted if specified else ink,
+                linestyle=(0, (3, 2)) if specified else "-",
+                shrinkA=0, shrinkB=0))
+
+        ax.add_patch(Rectangle((0.15, 4.74), 10.1, 1.30, fill=False,
+            edgecolor=muted, linewidth=0.75, linestyle=(0, (5, 4))))
+        ax.text(0.35, 5.76, "Specified perception interfaces", fontsize=9.2,
+            fontfamily="DejaVu Sans", fontweight="bold", color=ink)
+        starts = [0.40, 3.825, 7.25]
+        labels = ["Driver camera\nEmotion / state\nnetwork",
+                  "Road camera\nVehicle detection\nand tracking",
+                  "Vehicle signals\nKinematic estimation"]
+        scores = ["Driver score E\nUncertainty u\nAvailability a",
+                  "Hazard score H\nUncertainty u\nAvailability a",
+                  "Telemetry score T\nUncertainty u\nAvailability a"]
+        for x, label, score_label in zip(starts, labels, scores):
+            node(x, 4.84, 2.75, 0.78, label, specified=True, size=8.0)
+            node(x, 3.80, 2.75, 0.80, score_label, size=8.0)
+            link((x + 1.375, 4.83), (x + 1.375, 4.61), specified=True)
+            link((x + 1.375, 3.79), (x + 1.375, 3.58))
+
+        node(1.20, 2.99, 8.00, 0.58,
+             "Normalize inputs + apply quality gates", size=9.5)
+        node(1.20, 2.14, 8.00, 0.58,
+             "Causal memory + contextual products", size=9.5)
+        node(1.20, 1.29, 8.00, 0.58,
+             "Calibrated scalar fusion\nUATIF / matched MLP or HGB", size=8.2)
+        node(1.20, 0.44, 8.00, 0.58,
+             "Probability + threshold flag + availability status", size=9.2)
+        for y_top, y_bottom in [(2.98, 2.73), (2.13, 1.88), (1.28, 1.03)]:
+            link((5.20, y_top), (5.20, y_bottom))
+        save(fig, "Figure_1_Framework")
+
+draw_framework()
+
 
 s=pd.read_csv(ROOT/"output/synthetic/summary.csv")
 clean=s[(s.scenario=="clean")&(s.horizon_frames==0)].set_index("model")
@@ -116,3 +146,4 @@ handles,labs=axs[0].get_legend_handles_labels()
 fig.legend(handles,labs,ncol=4,loc="upper center",bbox_to_anchor=(.5,1.09),frameon=False,fontsize=9)
 fig.tight_layout();save(fig,"Figure_5_Event_Validation")
 print("Five figures generated from executed desktop results.",flush=True)
+

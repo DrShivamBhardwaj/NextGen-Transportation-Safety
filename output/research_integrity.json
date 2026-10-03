@@ -11,7 +11,7 @@
     "code/README.md": "16c7b0866599c83172edb0675a154dfe643a116eaeb6958fec97a3e71ed5094c",
     "code/eventstudy.py": "bce74da27316a851d8702e664e08cb67a858ccb5e448aaa7c63407d95265318c",
     "code/fusion.py": "60e88b6d958d0710fe107e43b1034f0d821b575cf59eade0b252068514d0c7a2",
-    "code/plot_results.py": "4459c21ed90949db0ee2a86734e14d653e31f06469c34c8eb31f03404f0a54a2",
+    "code/plot_results.py": "96c7b517c9977a3257f94cbf9fda13c12d854c8f0a506dd06cbdbc75eaec841f",
     "code/requirements.txt": "b03f63b67f5e5ca75846dafa495b1841a9b02dbe299ae9f029a2184a4fb66ff6",
     "code/simulation.py": "e6a2e0955bc32d02664762e36ca1a0c3854e4a63a929e1a0b1f657c7916af834",
     "code/test_invariants.py": "ad65de447e54fd49bfe66e05142e6c89cf3b880362ffd43774a5616a269dfe01",
@@ -164,9 +164,9 @@
     "output/events/participant_splits.json": "ff2e929003b29fbc240d0c85471c372eec8e12b0cf2afd9fdf790c9b6d903767",
     "output/events/run_manifest.json": "5f36cc07ba46e0279e85638004a4b67ff14d0efd97b511d6a85a7a03e7410a72",
     "output/eventstudy_run.log": "b6eab95cbdc3d626dd6085fe4133e3fca7a691d787ffe65784e34559271bec57",
-    "output/figures/Figure_1_Framework.pdf": "b9efd2b857cc091d19e638e76a6c90af0d8ff2439ca61cd6587ddd8468629793",
-    "output/figures/Figure_1_Framework.png": "323f3b709776f6a77ac5403c61cb2519114b8de325c12a74f509a6a22a8f2aa2",
-    "output/figures/Figure_1_Framework.svg": "b894b1668dd72e16f1d18ca3fb5605f3424af0d7e077d12f49929b66311c17a8",
+    "output/figures/Figure_1_Framework.pdf": "8d4a2d53fa3282d726133fcd2e8f0979c8ca5379d452091cc8dfc12f49e82f98",
+    "output/figures/Figure_1_Framework.png": "f9ba794b39c6dc3dfe186778f96bb33b0e07c5f7f5582b3c3771815c381f139c",
+    "output/figures/Figure_1_Framework.svg": "c10f8618b0a97cf4905ef00abcd3ecf43ffc175efaa4c5d9b0d0a4d77af3c1fd",
     "output/figures/Figure_2_Clean_AP.pdf": "781f0132e81bfaa3c09c4d20573399ccb79a9841bbde58f6af2f02aa5bc50efc",
     "output/figures/Figure_2_Clean_AP.png": "9334b3d3c839b8bc72818734459dd24ca798690a461268b04ad1471f97ef6fa5",
     "output/figures/Figure_2_Clean_AP.svg": "69856d03cfab818a5784a6f07a2309779acf2b76c40cd7df0aeb60e3bb967dd0",
@@ -227,5 +227,9 @@
     "output/synthetic/uatif_h0.json": "aa60149b9a8a76de0ea57cc199eb6dc8628a725493c356c492516c7e0b17a2aa",
     "output/synthetic/uatif_h10.json": "6bd7b13410efe7113372396958ee5d532a25cc9289b641a95f5210af15a36387",
     "output/validation_tests.txt": "ba94d178800206803172b26f14a07f06dc731980572da814ba8c530a099f3094"
+  },
+  "presentation_revision": {
+    "date": "2026-10-03",
+    "scope": "Figure 1 layout revised; scientific inputs, models, metrics, and other figures preserved."
   }
 }
