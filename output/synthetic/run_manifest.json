@@ -1,0 +1,31 @@
+{
+  "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "numpy": "2.5.3",
+  "pandas": "3.0.6",
+  "scipy": "1.18.1",
+  "scikit_learn": "1.9.1",
+  "elapsed_seconds": 52.48109420799301,
+  "seed_metrics": 8160,
+  "input_sha256": {
+    "input/synthetic/evaluation_iid20.npz": "0b91fa30db73b928512e8c4dc7d3cfd1c58b2c01f4287a016559f68528dbacc9",
+    "input/synthetic/train.npz": "4f498dcbef8025e3f43ec513d92d0dc46f9d2f2d43c086828b7ba6e3de02cc27",
+    "input/synthetic/evaluation_iid30.npz": "6698388d6fca865e0f31d4c15ab86329f413110f0598690d3729bae6424404ec",
+    "input/synthetic/threshold.npz": "c83a3dc485ab498bf7eb2462d160e38c7edc5011cb5d677565fa6f4a644f7fca",
+    "input/synthetic/evaluation_driver_shuffle.npz": "574bdfd44b4740ad187798e7a59270b110105b62bfbcd56313181da8fdf261a5",
+    "input/synthetic/evaluation_noise.npz": "49edd4edc011eaaa3d4ba1e1d995f8854120d8c7dfb3544e1166cc56564e52d8",
+    "input/synthetic/evaluation_quality_bias.npz": "f43eb7b3a3808e6f2c18c91497185c4f0803fd59b9d2fff299d3bc63c4ad96f1",
+    "input/synthetic/evaluation_clean.npz": "5eafff9170aae27e441a258c2dc5580132286abd600d86aae345c3d19b9e7292",
+    "input/synthetic/evaluation_iid10.npz": "bee825515b7cfd109df449142c3146a40aebcdc8d6f5db1093c55d9dc9da2435",
+    "input/synthetic/evaluation_burst30.npz": "8eaae2a9a115591d46bce393855cf2d2508b4829613bb716be66615cd9091ad8",
+    "input/synthetic/calibration.npz": "8e66eee14fbeb3ec82a0b5fd315edab93f1e309d38f9d3d313e93a2db56d1d86"
+  },
+  "source_sha256": {
+    "code/eventstudy.py": "bce74da27316a851d8702e664e08cb67a858ccb5e448aaa7c63407d95265318c",
+    "code/fusion.py": "60e88b6d958d0710fe107e43b1034f0d821b575cf59eade0b252068514d0c7a2",
+    "code/simulation.py": "e6a2e0955bc32d02664762e36ca1a0c3854e4a63a929e1a0b1f657c7916af834",
+    "code/test_invariants.py": "ad65de447e54fd49bfe66e05142e6c89cf3b880362ffd43774a5616a269dfe01"
+  },
+  "fit_count": 34
+}

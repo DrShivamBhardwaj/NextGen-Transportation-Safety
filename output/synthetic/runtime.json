@@ -1,0 +1,6 @@
+{
+  "median_us": 27.958,
+  "p95_us": 28.291,
+  "samples": 800,
+  "scope": "stream normalization, causal features and portable logistic inference; no cameras, detector or I/O"
+}

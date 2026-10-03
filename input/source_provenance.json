@@ -1,0 +1,485 @@
+{
+  "dataset": "Driving with Autonomous Aids",
+  "license": "CC0",
+  "source_doi": "10.18112/openneuro.ds004657.v1.0.3",
+  "nemar_doi": "10.82901/nemar.on004657",
+  "event_files": [
+    {
+      "path": "sub-001/ses-SCFB/eeg/sub-001_ses-SCFB_task-Drive_events.tsv",
+      "sha256": "cea0e2a10cd0431561bc246bbbf52436054434feab4deca1c1bc25bf02c993ab"
+    },
+    {
+      "path": "sub-001/ses-SCFG/eeg/sub-001_ses-SCFG_task-Drive_events.tsv",
+      "sha256": "f4213f3c0f25e5b860265b11b3af7da69d2d5af7171ecf87c67ea93fd3c4ddea"
+    },
+    {
+      "path": "sub-001/ses-SCMM/eeg/sub-001_ses-SCMM_task-Drive_events.tsv",
+      "sha256": "7e241f32a5d3857cc2409d061d002031e14690ca63743bdd75ee3afef2931ce2"
+    },
+    {
+      "path": "sub-001/ses-SCPB/eeg/sub-001_ses-SCPB_task-Drive_events.tsv",
+      "sha256": "d6c7db27f26254950ed258017613631cb906db5bfed01a6b608c00e4fc952f67"
+    },
+    {
+      "path": "sub-001/ses-SCSB/eeg/sub-001_ses-SCSB_task-Drive_events.tsv",
+      "sha256": "a064dbe93bbc703c869b7cf2ead85e11f64533a296268e892abe5237da1dbdae"
+    },
+    {
+      "path": "sub-001/ses-SCSG/eeg/sub-001_ses-SCSG_task-Drive_events.tsv",
+      "sha256": "86156b0e824f9a3d7f4d4f10599d7a8545ebbe63865661f71bd9d6f8d99a0513"
+    },
+    {
+      "path": "sub-002/ses-SCFB/eeg/sub-002_ses-SCFB_task-Drive_events.tsv",
+      "sha256": "4722334deaf68671c142fc4c070bc5387c44cdf82360b3d147ee1d0b2d96f8fe"
+    },
+    {
+      "path": "sub-002/ses-SCFG/eeg/sub-002_ses-SCFG_task-Drive_events.tsv",
+      "sha256": "97575251b3e62a6f55fe30bb11bc65965493a94f1af3ad827f87d66835038b75"
+    },
+    {
+      "path": "sub-002/ses-SCMM/eeg/sub-002_ses-SCMM_task-Drive_events.tsv",
+      "sha256": "189c80eeeec2bc962f2675a6b6a26d22fc3d4e4dd5ea75166f9f26d5e58ea47c"
+    },
+    {
+      "path": "sub-002/ses-SCPB/eeg/sub-002_ses-SCPB_task-Drive_events.tsv",
+      "sha256": "e9362bb1e753b2440c67e21d84c621c4a4eb998a665527135d81acba2b69b67b"
+    },
+    {
+      "path": "sub-002/ses-SCSB/eeg/sub-002_ses-SCSB_task-Drive_events.tsv",
+      "sha256": "350818665ede6f733aded2b893a5fa7c151af1ecf76a6700be85086a0aefbf44"
+    },
+    {
+      "path": "sub-002/ses-SCSG/eeg/sub-002_ses-SCSG_task-Drive_events.tsv",
+      "sha256": "a5e6d763876b7ee058f1970e2777aa3da17e21a0847d008188e372d596f30d73"
+    },
+    {
+      "path": "sub-003/ses-SCFB/eeg/sub-003_ses-SCFB_task-Drive_events.tsv",
+      "sha256": "f75d9c017b8f778e82fac9555462864c90b526283c698c4f1d8337ef91a563e7"
+    },
+    {
+      "path": "sub-003/ses-SCMM/eeg/sub-003_ses-SCMM_task-Drive_events.tsv",
+      "sha256": "d8802adf4c5fba52d17cc77ec0ac1c3c440876ece8cb382e09f11cd8a15a448e"
+    },
+    {
+      "path": "sub-003/ses-SCPB/eeg/sub-003_ses-SCPB_task-Drive_events.tsv",
+      "sha256": "91fad11e556b571b8b7ba19ed09dd7f126ccf29a4ba51bfb4ff7732e77df4472"
+    },
+    {
+      "path": "sub-004/ses-SCMM/eeg/sub-004_ses-SCMM_task-Drive_events.tsv",
+      "sha256": "1c8f2bdc0b834673bb6ad8cbf45b2bc038cee1eaf8b1e3882a3bd140695f1eef"
+    },
+    {
+      "path": "sub-005/ses-SCFB/eeg/sub-005_ses-SCFB_task-Drive_events.tsv",
+      "sha256": "55431824f51cee417a387d242bc5a2c522ceda55430f5f57b82817db56f843b6"
+    },
+    {
+      "path": "sub-005/ses-SCFG/eeg/sub-005_ses-SCFG_task-Drive_events.tsv",
+      "sha256": "896eff304c65583a341bdfca695a681482fa661c4e48949466d33f03e834fd59"
+    },
+    {
+      "path": "sub-005/ses-SCMM/eeg/sub-005_ses-SCMM_task-Drive_events.tsv",
+      "sha256": "320af33bfc7841a16b29e508bc035377d72b35744e76ac95d8c57781ecb38997"
+    },
+    {
+      "path": "sub-005/ses-SCPB/eeg/sub-005_ses-SCPB_task-Drive_events.tsv",
+      "sha256": "7b646aecd8ac2534896f7126f1d04b762ff142ce8f79c136f0db7b2bebb20070"
+    },
+    {
+      "path": "sub-005/ses-SCSB/eeg/sub-005_ses-SCSB_task-Drive_events.tsv",
+      "sha256": "38782e645fd8dca8710407f8b525fcdb90c6f93355b1671f7da7ae5a69dec4c5"
+    },
+    {
+      "path": "sub-005/ses-SCSG/eeg/sub-005_ses-SCSG_task-Drive_events.tsv",
+      "sha256": "94d94bfd7940fab53b12fa2d45be8ce3d5a80daa0216a68a97dcea8a827cae30"
+    },
+    {
+      "path": "sub-006/ses-SCFB/eeg/sub-006_ses-SCFB_task-Drive_events.tsv",
+      "sha256": "a9489c390175570428b834ddc8efa4cb7e7bb3725b81b629b833d55cb7e90277"
+    },
+    {
+      "path": "sub-006/ses-SCFG/eeg/sub-006_ses-SCFG_task-Drive_events.tsv",
+      "sha256": "7adf1619f1043bf21fa632bbc7a8415dae04289195d555a483fcd8fd5a764f1b"
+    },
+    {
+      "path": "sub-006/ses-SCMM/eeg/sub-006_ses-SCMM_task-Drive_events.tsv",
+      "sha256": "4179716ad2e43208b387e7e0b4e61b4e11f6cfcee94cd4fe57bec7fa0f5485d1"
+    },
+    {
+      "path": "sub-006/ses-SCSB/eeg/sub-006_ses-SCSB_task-Drive_events.tsv",
+      "sha256": "83d04de43823f7d42732c846c1939873975de0c409ad24aaea256217b1e76ec1"
+    },
+    {
+      "path": "sub-006/ses-SCSG/eeg/sub-006_ses-SCSG_task-Drive_events.tsv",
+      "sha256": "3584e9328a1ea39a4fed1349f660531d561a9347cbdbc699aea8d24ff196d93e"
+    },
+    {
+      "path": "sub-007/ses-SCFB/eeg/sub-007_ses-SCFB_task-Drive_events.tsv",
+      "sha256": "363ca08a811abb0befe742e95f4d78fd16d956a8e0a64e82ea55dcbd23f8374c"
+    },
+    {
+      "path": "sub-007/ses-SCFG/eeg/sub-007_ses-SCFG_task-Drive_events.tsv",
+      "sha256": "8582875155c4025058a8968205bad0806247df6d5eeced7b3d4ded120bc80d64"
+    },
+    {
+      "path": "sub-007/ses-SCMM/eeg/sub-007_ses-SCMM_task-Drive_events.tsv",
+      "sha256": "f2606bbdd8a62c611e7fa5dbbe384befc642f200431169b5d79f81ca4861914a"
+    },
+    {
+      "path": "sub-007/ses-SCPB/eeg/sub-007_ses-SCPB_task-Drive_events.tsv",
+      "sha256": "3e519ecfe03ed7b395efd1f16d2a92e87fbb767e70e34bcab451e1f8174e86e8"
+    },
+    {
+      "path": "sub-007/ses-SCSB/eeg/sub-007_ses-SCSB_task-Drive_events.tsv",
+      "sha256": "6d73eb7407d58bcbc48112bdc9f7fcbeb00d9e0158e2de4d38b6108d61713bf4"
+    },
+    {
+      "path": "sub-007/ses-SCSG/eeg/sub-007_ses-SCSG_task-Drive_events.tsv",
+      "sha256": "b8a0f355ccd9e95ebab4548072ea71dd5202b1bde56a946c0ddf3e4de4204a89"
+    },
+    {
+      "path": "sub-008/ses-SCFB/eeg/sub-008_ses-SCFB_task-Drive_events.tsv",
+      "sha256": "2457cce178b290bcfda3823aaff38001678f311e4d36149e9b73a1e7bf7e4e12"
+    },
+    {
+      "path": "sub-008/ses-SCFG/eeg/sub-008_ses-SCFG_task-Drive_events.tsv",
+      "sha256": "3b0313e70a647def870559246efa2ce98e19e38061d2830c1bfa194dc3505a74"
+    },
+    {
+      "path": "sub-008/ses-SCMM/eeg/sub-008_ses-SCMM_task-Drive_events.tsv",
+      "sha256": "e023c1b98a437ffc58a404b2dbcf08e6e06b9dcf2ac8f597f07e0901a732265e"
+    },
+    {
+      "path": "sub-008/ses-SCSB/eeg/sub-008_ses-SCSB_task-Drive_events.tsv",
+      "sha256": "086c6def82fad8fefe76652165d5a635b70d97f047ec19f3e9373b0d6ab796c9"
+    },
+    {
+      "path": "sub-008/ses-SCSG/eeg/sub-008_ses-SCSG_task-Drive_events.tsv",
+      "sha256": "3ed28fa70030a73127485f5ca0829f8f0d3cccc1d87350e12ec962e2596eb388"
+    },
+    {
+      "path": "sub-009/ses-SCMM/eeg/sub-009_ses-SCMM_task-Drive_events.tsv",
+      "sha256": "b7386be0ffab9fb176f09bc9fd7dd09a403f18ef150a6a7d6f94f33fc1b6b8e5"
+    },
+    {
+      "path": "sub-009/ses-SCPB/eeg/sub-009_ses-SCPB_task-Drive_events.tsv",
+      "sha256": "e6e83e1675fba386d0f22d17c261497bbcfe9b4f120d6d1928dbaeb0641396cc"
+    },
+    {
+      "path": "sub-009/ses-SCSB/eeg/sub-009_ses-SCSB_task-Drive_events.tsv",
+      "sha256": "801d430670ee6d4bb55fd0844198d2be0c7f211ffbf6236072a0b6427dee740f"
+    },
+    {
+      "path": "sub-009/ses-SCSG/eeg/sub-009_ses-SCSG_task-Drive_events.tsv",
+      "sha256": "b427e1dbdaa2317b4e13ff9c51ba3e46474b9afe71e54afe1c0e2487c2c29e98"
+    },
+    {
+      "path": "sub-010/ses-SCFB/eeg/sub-010_ses-SCFB_task-Drive_events.tsv",
+      "sha256": "363fdd784aa7dfa3e5d3204ee19475d20a3ee2d73e4de64241b891d450c33fe9"
+    },
+    {
+      "path": "sub-010/ses-SCFG/eeg/sub-010_ses-SCFG_task-Drive_events.tsv",
+      "sha256": "e6d632d544cfc102bd525b6026e0d5b0ab9ce64bba2da6828dc6e982d12c2ab6"
+    },
+    {
+      "path": "sub-010/ses-SCMM/eeg/sub-010_ses-SCMM_task-Drive_events.tsv",
+      "sha256": "ea38e8b0648acb9afa1094611c3bd0cd69a7d1d64b8c6533849283051daf4cfd"
+    },
+    {
+      "path": "sub-010/ses-SCSB/eeg/sub-010_ses-SCSB_task-Drive_events.tsv",
+      "sha256": "1a002a5494ee5b5281f67de979966a4106114ff4c93fe0d8ae7770e563f89ca2"
+    },
+    {
+      "path": "sub-010/ses-SCSG/eeg/sub-010_ses-SCSG_task-Drive_events.tsv",
+      "sha256": "143196bd01b69956b3c5c43185bfc7cdb88c3fe237511eeb69f91879f8a92e8a"
+    },
+    {
+      "path": "sub-011/ses-SCPB/eeg/sub-011_ses-SCPB_task-Drive_events.tsv",
+      "sha256": "5f5adbf3c2238a03cc86146b0c4b0d770a584bd3d57905558cc47b85509bdbb6"
+    },
+    {
+      "path": "sub-012/ses-SCFG/eeg/sub-012_ses-SCFG_task-Drive_events.tsv",
+      "sha256": "3abee1e8ac12e8953c184c0e88b9837c8894af18e01195370c2ad3dc5dbebfa6"
+    },
+    {
+      "path": "sub-012/ses-SCMM/eeg/sub-012_ses-SCMM_task-Drive_events.tsv",
+      "sha256": "bc99b61ef9920ec195a92b674073972f83c172ce737f4dfc47230bc5fcd58b56"
+    },
+    {
+      "path": "sub-012/ses-SCPB/eeg/sub-012_ses-SCPB_task-Drive_events.tsv",
+      "sha256": "a2240f17327fb59542fd866e0f7587bb5f177f29f013c9649950298eeec02f42"
+    },
+    {
+      "path": "sub-012/ses-SCSB/eeg/sub-012_ses-SCSB_task-Drive_events.tsv",
+      "sha256": "09a86f4111732d04b174a6dc1441bcc6b1f7add961f50ffb06832950d3615971"
+    },
+    {
+      "path": "sub-012/ses-SCSG/eeg/sub-012_ses-SCSG_task-Drive_events.tsv",
+      "sha256": "3f8304332ccc328824bbc812e9b9b3805d020ce19a168e2e0bfaf49a7adb3260"
+    },
+    {
+      "path": "sub-013/ses-SCFB/eeg/sub-013_ses-SCFB_task-Drive_events.tsv",
+      "sha256": "f6cb1f1da6da48a8daa26a9ec0479779e8da45c367d6e3fa4034f28e5cf99688"
+    },
+    {
+      "path": "sub-013/ses-SCFG/eeg/sub-013_ses-SCFG_task-Drive_events.tsv",
+      "sha256": "566d8ba919347a3ffc642bbdcfc02fb0bd6c874280258135b8da2416e7e60510"
+    },
+    {
+      "path": "sub-013/ses-SCMM/eeg/sub-013_ses-SCMM_task-Drive_events.tsv",
+      "sha256": "de25ae48d541bab169479ab8c8eaf1fd9cc2d857b83c696971a5d24bfaaf21dc"
+    },
+    {
+      "path": "sub-013/ses-SCPB/eeg/sub-013_ses-SCPB_task-Drive_events.tsv",
+      "sha256": "08dd1202e843cd9bf1440ed00f077bc05b7ee95d1ebeed8a889c2ec2a0e7a304"
+    },
+    {
+      "path": "sub-013/ses-SCSB/eeg/sub-013_ses-SCSB_task-Drive_events.tsv",
+      "sha256": "5ff14b98ac17b76f867fa9d2fa5900282b577ba51c524448c51f679c787cf2b8"
+    },
+    {
+      "path": "sub-013/ses-SCSG/eeg/sub-013_ses-SCSG_task-Drive_events.tsv",
+      "sha256": "3ff553e570540de2c1175effdf03314058e37301624f4ef61655159cddee7ce8"
+    },
+    {
+      "path": "sub-014/ses-SCFB/eeg/sub-014_ses-SCFB_task-Drive_events.tsv",
+      "sha256": "2444fbd2424129fe1948daadba66829b66e0c701b38a7565437e0a0826eac13c"
+    },
+    {
+      "path": "sub-014/ses-SCMM/eeg/sub-014_ses-SCMM_task-Drive_events.tsv",
+      "sha256": "3bb74186e92b00e8ff161d0e19e99a951af14ac6fcf27c5497713425e1ba1f4d"
+    },
+    {
+      "path": "sub-014/ses-SCPB/eeg/sub-014_ses-SCPB_task-Drive_events.tsv",
+      "sha256": "c715fc791a514f4b01fa9ab05d95296bc11f47c17c85227aba51788d78858c59"
+    },
+    {
+      "path": "sub-014/ses-SCSB/eeg/sub-014_ses-SCSB_task-Drive_events.tsv",
+      "sha256": "316eaaf04b6e76d69fc7f00a9ea23ddcdfa9bacdad888e73ff89fc98ebd9b220"
+    },
+    {
+      "path": "sub-014/ses-SCSG/eeg/sub-014_ses-SCSG_task-Drive_events.tsv",
+      "sha256": "4fafb24a58623b7654371cf6afbfb157eeaaf27396642383693159d5588c29b2"
+    },
+    {
+      "path": "sub-015/ses-SCFB/eeg/sub-015_ses-SCFB_task-Drive_events.tsv",
+      "sha256": "5a569a550f844d29779f7d6869dde0fe4f73107c219a44a9094faebbd0c16c42"
+    },
+    {
+      "path": "sub-015/ses-SCFG/eeg/sub-015_ses-SCFG_task-Drive_events.tsv",
+      "sha256": "337ab95ce83674f8e07cb2e4af913e48075f4ab4240f15d2b3b007e1a80913fb"
+    },
+    {
+      "path": "sub-015/ses-SCMM/eeg/sub-015_ses-SCMM_task-Drive_events.tsv",
+      "sha256": "eb474bf817306c4122d050b5fb02a178f6c05e2729ed8ac36f4a3903d9a95cb7"
+    },
+    {
+      "path": "sub-015/ses-SCSB/eeg/sub-015_ses-SCSB_task-Drive_events.tsv",
+      "sha256": "1b21d41a4b1865f0ba755fc4a2f87a0f76fc19c0cf4ad44db066541bf2611762"
+    },
+    {
+      "path": "sub-015/ses-SCSG/eeg/sub-015_ses-SCSG_task-Drive_events.tsv",
+      "sha256": "52918262de4f89e439dbca741bc9598890be012f74c4ea27269669f193c72287"
+    },
+    {
+      "path": "sub-016/ses-SCFB/eeg/sub-016_ses-SCFB_task-Drive_events.tsv",
+      "sha256": "961185e584efc815522c3f27db80c16f6a24e14b9149fb5f7019cdcc5d3c498e"
+    },
+    {
+      "path": "sub-016/ses-SCFG/eeg/sub-016_ses-SCFG_task-Drive_events.tsv",
+      "sha256": "efe05cd756b5a07d2c4f30b5d8571103ea57087b3939768965998d4be424bfaf"
+    },
+    {
+      "path": "sub-016/ses-SCMM/eeg/sub-016_ses-SCMM_task-Drive_events.tsv",
+      "sha256": "0be3a39dd663dcdef7e20fd5312776bfb55cb4e582c7835bd43c8145f68ea6d4"
+    },
+    {
+      "path": "sub-016/ses-SCPB/eeg/sub-016_ses-SCPB_task-Drive_events.tsv",
+      "sha256": "4cb73bcf1dba4d5f09964999aa04ab70ed8e9927be2186de1a9ff98681e19dfe"
+    },
+    {
+      "path": "sub-016/ses-SCSB/eeg/sub-016_ses-SCSB_task-Drive_events.tsv",
+      "sha256": "4e4ec496a17d9d80c4b5f93e057586b0ec2f03aff61f885c5239b407c93ba518"
+    },
+    {
+      "path": "sub-016/ses-SCSG/eeg/sub-016_ses-SCSG_task-Drive_events.tsv",
+      "sha256": "bc01f2822fe07301cb5461d0102e983362c59e9ffb119a5f474be6dc0a13b591"
+    },
+    {
+      "path": "sub-017/ses-SCFB/eeg/sub-017_ses-SCFB_task-Drive_events.tsv",
+      "sha256": "d1936d0d979ed9d25cc0b059312e7e6a96184b5c40055a2e376079339808ee9e"
+    },
+    {
+      "path": "sub-017/ses-SCFG/eeg/sub-017_ses-SCFG_task-Drive_events.tsv",
+      "sha256": "d6cc1a2a5db39de714032cb57426be7557f48294f11661debd3bd060f52d8489"
+    },
+    {
+      "path": "sub-017/ses-SCMM/eeg/sub-017_ses-SCMM_task-Drive_events.tsv",
+      "sha256": "6401190b0be801227b6400c3387dcb7a1f43198a0988c8f22a45ca52c4b4fced"
+    },
+    {
+      "path": "sub-017/ses-SCSB/eeg/sub-017_ses-SCSB_task-Drive_events.tsv",
+      "sha256": "4488e7f4c350f749515a29b0c83e74efe068783f957befde32a8f00b4cdd9e7e"
+    },
+    {
+      "path": "sub-017/ses-SCSG/eeg/sub-017_ses-SCSG_task-Drive_events.tsv",
+      "sha256": "89c917d43893636de42d577b480fe23abccddb5761ecffb4a69e3d9f6d795a4e"
+    },
+    {
+      "path": "sub-018/ses-SCFB/eeg/sub-018_ses-SCFB_task-Drive_events.tsv",
+      "sha256": "0a9f0e297d8d1f116d25fe517b7f3a6774880e44d4bce72e83ef4397fbc008ae"
+    },
+    {
+      "path": "sub-018/ses-SCFG/eeg/sub-018_ses-SCFG_task-Drive_events.tsv",
+      "sha256": "0c9f820277712250477230459641ed8f12ef5473bf6fb16582006ee20d23700c"
+    },
+    {
+      "path": "sub-018/ses-SCMM/eeg/sub-018_ses-SCMM_task-Drive_events.tsv",
+      "sha256": "7af9bf7063501036da07a2270ecd6c9bad6af84c23e593a4b8f7b83ff4101b07"
+    },
+    {
+      "path": "sub-018/ses-SCSB/eeg/sub-018_ses-SCSB_task-Drive_events.tsv",
+      "sha256": "2d9b71a98c87b2154088a15de2d8e24e27529020301555286b1b7da642d23751"
+    },
+    {
+      "path": "sub-018/ses-SCSG/eeg/sub-018_ses-SCSG_task-Drive_events.tsv",
+      "sha256": "7a8f1053c887e68536d9d59e867f10d3cfb69fdbab97152e57551dd67fe862b6"
+    },
+    {
+      "path": "sub-019/ses-SCFB/eeg/sub-019_ses-SCFB_task-Drive_events.tsv",
+      "sha256": "cdf8b818fbb50cf95a7abff317f69379c67e3e101649bfda4c900b1bbc9b58cf"
+    },
+    {
+      "path": "sub-019/ses-SCMM/eeg/sub-019_ses-SCMM_task-Drive_events.tsv",
+      "sha256": "022319c553d4718a9a91b47b77f57f699368c65c2067cbe6ce616c9a537cadfb"
+    },
+    {
+      "path": "sub-019/ses-SCPB/eeg/sub-019_ses-SCPB_task-Drive_events.tsv",
+      "sha256": "003a08262b10d7e815bedba42b4f427f0c6f47e572fb02c73a5d7c1c0025e227"
+    },
+    {
+      "path": "sub-019/ses-SCSB/eeg/sub-019_ses-SCSB_task-Drive_events.tsv",
+      "sha256": "e583cdfdc1802afb43e274762b323fa04130f210d221e03499e0a2975b2b1cef"
+    },
+    {
+      "path": "sub-019/ses-SCSG/eeg/sub-019_ses-SCSG_task-Drive_events.tsv",
+      "sha256": "709f9e0009d15d785287c54426d1037282dfca32f8e6362039cefee968dd6ce2"
+    },
+    {
+      "path": "sub-020/ses-SCFB/eeg/sub-020_ses-SCFB_task-Drive_events.tsv",
+      "sha256": "b77b8e7b0cf7926bfbc3ddfa2bd29d672ebc556239c98182c0c452c96f36768e"
+    },
+    {
+      "path": "sub-020/ses-SCFG/eeg/sub-020_ses-SCFG_task-Drive_events.tsv",
+      "sha256": "e8315f365f58b9263b39ec5de8db9cec14fa9141843cbdf08478a4c3461ee050"
+    },
+    {
+      "path": "sub-020/ses-SCMM/eeg/sub-020_ses-SCMM_task-Drive_events.tsv",
+      "sha256": "ed4de8abab097bb60d0e68219d932a4054dd9051195f839c067bf24d6123d413"
+    },
+    {
+      "path": "sub-020/ses-SCPB/eeg/sub-020_ses-SCPB_task-Drive_events.tsv",
+      "sha256": "032f05dd167ed064d9360888b65d2799f50d68535d99263a067fb1a05d58fa8f"
+    },
+    {
+      "path": "sub-020/ses-SCSB/eeg/sub-020_ses-SCSB_task-Drive_events.tsv",
+      "sha256": "428fcc47a230711d74f4707f87dd571b3142e09c1bb98c7a7d17076abcd65f69"
+    },
+    {
+      "path": "sub-020/ses-SCSG/eeg/sub-020_ses-SCSG_task-Drive_events.tsv",
+      "sha256": "5c9d2545b2d0d2b2f651b209a022086869b333c720f423cf0c592d28c78e4c50"
+    },
+    {
+      "path": "sub-021/ses-SCFB/eeg/sub-021_ses-SCFB_task-Drive_events.tsv",
+      "sha256": "a106396c3f514c433ed68513e38768e75904d731c9c69de9cc47943e2bc2b8bf"
+    },
+    {
+      "path": "sub-021/ses-SCFG/eeg/sub-021_ses-SCFG_task-Drive_events.tsv",
+      "sha256": "2e55df886ae2fe1b06ac9f1da4ea091d8f0788a5fefd131089c76b0da0b37e3f"
+    },
+    {
+      "path": "sub-021/ses-SCMM/eeg/sub-021_ses-SCMM_task-Drive_events.tsv",
+      "sha256": "4c0e05128d70726410183d6ad7c16f857488ed1ca77d7e31ecb1f90fc1cf30f9"
+    },
+    {
+      "path": "sub-021/ses-SCSB/eeg/sub-021_ses-SCSB_task-Drive_events.tsv",
+      "sha256": "d1aebbbee881490961f03a78b4be04b0edc987fd3496978eb0e853856d75c51c"
+    },
+    {
+      "path": "sub-021/ses-SCSG/eeg/sub-021_ses-SCSG_task-Drive_events.tsv",
+      "sha256": "f572088111b67fcbd3d2ea27842f9ae4d2fc9f413a7db53418915da53323f76b"
+    },
+    {
+      "path": "sub-022/ses-SCFB/eeg/sub-022_ses-SCFB_task-Drive_events.tsv",
+      "sha256": "22b6b2e3de6cc6af6a208f87975215088de159f73ed90910afedc863815b9551"
+    },
+    {
+      "path": "sub-022/ses-SCFG/eeg/sub-022_ses-SCFG_task-Drive_events.tsv",
+      "sha256": "f24dcad2dc6d18a96ec2f1806c08259dea59339ef0bad0f4d7e5617645d3a8bd"
+    },
+    {
+      "path": "sub-022/ses-SCMM/eeg/sub-022_ses-SCMM_task-Drive_events.tsv",
+      "sha256": "026d7ac8b11b65dbe8049af3c0cb69165e140cdcc7f304d73ed1bf610a69101f"
+    },
+    {
+      "path": "sub-022/ses-SCPB/eeg/sub-022_ses-SCPB_task-Drive_events.tsv",
+      "sha256": "33ca5b6c800212ce54fccfde918220970aa2ebd468b80ef790e1d215d50c6d0f"
+    },
+    {
+      "path": "sub-022/ses-SCSB/eeg/sub-022_ses-SCSB_task-Drive_events.tsv",
+      "sha256": "9071f721736378ab3cbc9ff8f0a2d9290fbb15bb6639f06e5ebc709c93856888"
+    },
+    {
+      "path": "sub-022/ses-SCSG/eeg/sub-022_ses-SCSG_task-Drive_events.tsv",
+      "sha256": "e7a208f95092edf0914e48ce7c9bfaee2db1b015194aa47c30ec010363c68f31"
+    },
+    {
+      "path": "sub-023/ses-SCFB/eeg/sub-023_ses-SCFB_task-Drive_events.tsv",
+      "sha256": "e45ac8100ba4117f8a9f4933f938c10279c25393bdae6613cf7ad59995563f40"
+    },
+    {
+      "path": "sub-023/ses-SCFG/eeg/sub-023_ses-SCFG_task-Drive_events.tsv",
+      "sha256": "090df145fcd1ad678cc89746a7f55244caf9caf375930da64679bd703805e091"
+    },
+    {
+      "path": "sub-023/ses-SCMM/eeg/sub-023_ses-SCMM_task-Drive_events.tsv",
+      "sha256": "1e60461fc7072da5cc3a31cfd4392cd9d5db04b766194ba1215c986523db1d04"
+    },
+    {
+      "path": "sub-023/ses-SCPB/eeg/sub-023_ses-SCPB_task-Drive_events.tsv",
+      "sha256": "44ddab52996ccefb8bded359dbf09adf1c972ac51bf02539d5208dd3815dddd1"
+    },
+    {
+      "path": "sub-023/ses-SCSB/eeg/sub-023_ses-SCSB_task-Drive_events.tsv",
+      "sha256": "0015b24ca6f38a773b71d4030369d7498ce41440081c8344cc5d4cec832501f1"
+    },
+    {
+      "path": "sub-023/ses-SCSG/eeg/sub-023_ses-SCSG_task-Drive_events.tsv",
+      "sha256": "cf3719c0130857f4e2bcbec28f7f06b885de3e1fbe4cdce14dd4da9d4a79af94"
+    },
+    {
+      "path": "sub-024/ses-SCFB/eeg/sub-024_ses-SCFB_task-Drive_events.tsv",
+      "sha256": "d49f6ac7d84f79c7fc8577fc74818afc59431b96614f7a830a194b16beeb03f3"
+    },
+    {
+      "path": "sub-024/ses-SCFG/eeg/sub-024_ses-SCFG_task-Drive_events.tsv",
+      "sha256": "cfda02a4ba0f89e1ec1426b8d2c1b552523f9707b7109d3bc6a11f1cea473270"
+    },
+    {
+      "path": "sub-024/ses-SCMM/eeg/sub-024_ses-SCMM_task-Drive_events.tsv",
+      "sha256": "680f6159c02c9b918942e6a15eda9abb384f031e74f8f5e36a9bc35d5b5a7e68"
+    },
+    {
+      "path": "sub-024/ses-SCPB/eeg/sub-024_ses-SCPB_task-Drive_events.tsv",
+      "sha256": "68da6c558ab7a7e99d77c04ab10d5b9c4426e064481b79e4998efcb564d499f5"
+    },
+    {
+      "path": "sub-024/ses-SCSB/eeg/sub-024_ses-SCSB_task-Drive_events.tsv",
+      "sha256": "e8d1ef2b8a8cb69b1078a8b395af5cc82b74dbd277be12a30ed4b26e99f169fd"
+    },
+    {
+      "path": "sub-024/ses-SCSG/eeg/sub-024_ses-SCSG_task-Drive_events.tsv",
+      "sha256": "d38e761146c3a7811ee69d779ea8ce05bfc138026cf6f3d3ba590eaa94db772a"
+    }
+  ],
+  "scope": "event TSV files only; no physiological samples or video"
+}

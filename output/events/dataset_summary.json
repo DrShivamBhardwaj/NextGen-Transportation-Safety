@@ -1,0 +1,41 @@
+[
+  {
+    "participants": 23,
+    "sessions": 103,
+    "instances": 12064,
+    "positives": 235,
+    "prevalence": 0.01947944297082228,
+    "horizon_seconds": 8.0,
+    "censored_onsets": 122,
+    "lead_median": 1.21875,
+    "lead_q25": 0.9765625,
+    "lead_q75": 6.72265625,
+    "direct_collision_markers": 124
+  },
+  {
+    "participants": 23,
+    "sessions": 103,
+    "instances": 12112,
+    "positives": 124,
+    "prevalence": 0.01023778071334214,
+    "horizon_seconds": 4.0,
+    "censored_onsets": 74,
+    "lead_median": 0.9853515625,
+    "lead_q25": 0.819091796875,
+    "lead_q75": 1.068359375,
+    "direct_collision_markers": 124
+  },
+  {
+    "participants": 23,
+    "sessions": 103,
+    "instances": 11986,
+    "positives": 253,
+    "prevalence": 0.021107959285833474,
+    "horizon_seconds": 12.0,
+    "censored_onsets": 200,
+    "lead_median": 6.09375,
+    "lead_q25": 1.0009765625,
+    "lead_q75": 7.111328125,
+    "direct_collision_markers": 124
+  }
+]

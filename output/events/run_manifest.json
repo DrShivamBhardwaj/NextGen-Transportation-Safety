@@ -1,0 +1,7 @@
+{
+  "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "source_sha256": "bce74da27316a851d8702e664e08cb67a858ccb5e448aaa7c63407d95265318c",
+  "elapsed_seconds": 84.65426270799071,
+  "scope": "secondary analysis of public simulator event logs; no EEG or video"
+}

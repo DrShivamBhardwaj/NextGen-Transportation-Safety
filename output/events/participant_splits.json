@@ -1,0 +1,2906 @@
+[
+  {
+    "fold": 1,
+    "model": "Context only",
+    "threshold": 0.04588775822664725,
+    "split_seed": 42700,
+    "fit_subjects": [
+      2,
+      6,
+      7,
+      8,
+      9,
+      10,
+      13,
+      15,
+      17,
+      18,
+      19,
+      20,
+      24
+    ],
+    "calibration_subjects": [
+      4,
+      5,
+      21
+    ],
+    "threshold_subjects": [
+      1,
+      3,
+      22
+    ],
+    "test_subjects": [
+      12,
+      14,
+      16,
+      23
+    ],
+    "fit_positives": 167,
+    "calibration_positives": 20,
+    "threshold_positives": 24,
+    "test_positives": 24,
+    "calibration_slope": 0.6100915102644747,
+    "calibration_intercept": -3.9651266194150296,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 2,
+    "model": "Context only",
+    "threshold": 0.12632632028149024,
+    "split_seed": 42800,
+    "fit_subjects": [
+      1,
+      2,
+      3,
+      5,
+      8,
+      9,
+      10,
+      14,
+      16,
+      18,
+      20,
+      22,
+      23
+    ],
+    "calibration_subjects": [
+      7,
+      13,
+      21
+    ],
+    "threshold_subjects": [
+      12,
+      17,
+      19
+    ],
+    "test_subjects": [
+      4,
+      6,
+      15,
+      24
+    ],
+    "fit_positives": 134,
+    "calibration_positives": 56,
+    "threshold_positives": 20,
+    "test_positives": 25,
+    "calibration_slope": 0.9588144236009823,
+    "calibration_intercept": -3.358657482308067,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 3,
+    "model": "Context only",
+    "threshold": 0.0824906525846033,
+    "split_seed": 42900,
+    "fit_subjects": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      8,
+      9,
+      12,
+      13,
+      15,
+      16,
+      17,
+      19,
+      23
+    ],
+    "calibration_subjects": [
+      3,
+      10,
+      14
+    ],
+    "threshold_subjects": [
+      21,
+      22,
+      24
+    ],
+    "test_subjects": [
+      7,
+      18,
+      20
+    ],
+    "fit_positives": 81,
+    "calibration_positives": 26,
+    "threshold_positives": 26,
+    "test_positives": 102,
+    "calibration_slope": 0.9167411335439283,
+    "calibration_intercept": -3.8728929708016957,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 4,
+    "model": "Context only",
+    "threshold": 0.06395197080546347,
+    "split_seed": 43000,
+    "fit_subjects": [
+      2,
+      3,
+      4,
+      5,
+      8,
+      10,
+      12,
+      13,
+      14,
+      15,
+      16,
+      20,
+      23
+    ],
+    "calibration_subjects": [
+      1,
+      6,
+      19
+    ],
+    "threshold_subjects": [
+      7,
+      18,
+      24
+    ],
+    "test_subjects": [
+      9,
+      17,
+      21,
+      22
+    ],
+    "fit_positives": 123,
+    "calibration_positives": 28,
+    "threshold_positives": 54,
+    "test_positives": 30,
+    "calibration_slope": 0.7904350870356215,
+    "calibration_intercept": -3.9094667943886727,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 5,
+    "model": "Context only",
+    "threshold": 0.1779207438622819,
+    "split_seed": 43100,
+    "fit_subjects": [
+      3,
+      4,
+      6,
+      7,
+      10,
+      14,
+      16,
+      17,
+      18,
+      21,
+      22,
+      23,
+      24
+    ],
+    "calibration_subjects": [
+      8,
+      12,
+      20
+    ],
+    "threshold_subjects": [
+      1,
+      9,
+      15
+    ],
+    "test_subjects": [
+      2,
+      5,
+      13,
+      19
+    ],
+    "fit_positives": 122,
+    "calibration_positives": 64,
+    "threshold_positives": 25,
+    "test_positives": 24,
+    "calibration_slope": 1.2947518342543773,
+    "calibration_intercept": -3.350895741107766,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 6,
+    "model": "Context only",
+    "threshold": 0.2704312034368045,
+    "split_seed": 43200,
+    "fit_subjects": [
+      2,
+      4,
+      5,
+      6,
+      12,
+      13,
+      16,
+      17,
+      18,
+      19,
+      21,
+      22,
+      24
+    ],
+    "calibration_subjects": [
+      7,
+      14,
+      20
+    ],
+    "threshold_subjects": [
+      9,
+      15,
+      23
+    ],
+    "test_subjects": [
+      1,
+      3,
+      8,
+      10
+    ],
+    "fit_positives": 78,
+    "calibration_positives": 108,
+    "threshold_positives": 19,
+    "test_positives": 30,
+    "calibration_slope": 1.2280026606063459,
+    "calibration_intercept": -2.701234470352886,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 1,
+    "model": "Driver history",
+    "threshold": 0.026290091332735903,
+    "split_seed": 42700,
+    "fit_subjects": [
+      2,
+      6,
+      7,
+      8,
+      9,
+      10,
+      13,
+      15,
+      17,
+      18,
+      19,
+      20,
+      24
+    ],
+    "calibration_subjects": [
+      4,
+      5,
+      21
+    ],
+    "threshold_subjects": [
+      1,
+      3,
+      22
+    ],
+    "test_subjects": [
+      12,
+      14,
+      16,
+      23
+    ],
+    "fit_positives": 167,
+    "calibration_positives": 20,
+    "threshold_positives": 24,
+    "test_positives": 24,
+    "calibration_slope": 1.1419173545745842,
+    "calibration_intercept": -4.397875943635738,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 2,
+    "model": "Driver history",
+    "threshold": 0.04781666385087251,
+    "split_seed": 42800,
+    "fit_subjects": [
+      1,
+      2,
+      3,
+      5,
+      8,
+      9,
+      10,
+      14,
+      16,
+      18,
+      20,
+      22,
+      23
+    ],
+    "calibration_subjects": [
+      7,
+      13,
+      21
+    ],
+    "threshold_subjects": [
+      12,
+      17,
+      19
+    ],
+    "test_subjects": [
+      4,
+      6,
+      15,
+      24
+    ],
+    "fit_positives": 134,
+    "calibration_positives": 56,
+    "threshold_positives": 20,
+    "test_positives": 25,
+    "calibration_slope": 0.8710701619679956,
+    "calibration_intercept": -3.5377291541026277,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 3,
+    "model": "Driver history",
+    "threshold": 0.020086904343313047,
+    "split_seed": 42900,
+    "fit_subjects": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      8,
+      9,
+      12,
+      13,
+      15,
+      16,
+      17,
+      19,
+      23
+    ],
+    "calibration_subjects": [
+      3,
+      10,
+      14
+    ],
+    "threshold_subjects": [
+      21,
+      22,
+      24
+    ],
+    "test_subjects": [
+      7,
+      18,
+      20
+    ],
+    "fit_positives": 81,
+    "calibration_positives": 26,
+    "threshold_positives": 26,
+    "test_positives": 102,
+    "calibration_slope": 0.0001,
+    "calibration_intercept": -3.8875257696603693,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 4,
+    "model": "Driver history",
+    "threshold": 0.0441017957436615,
+    "split_seed": 43000,
+    "fit_subjects": [
+      2,
+      3,
+      4,
+      5,
+      8,
+      10,
+      12,
+      13,
+      14,
+      15,
+      16,
+      20,
+      23
+    ],
+    "calibration_subjects": [
+      1,
+      6,
+      19
+    ],
+    "threshold_subjects": [
+      7,
+      18,
+      24
+    ],
+    "test_subjects": [
+      9,
+      17,
+      21,
+      22
+    ],
+    "fit_positives": 123,
+    "calibration_positives": 28,
+    "threshold_positives": 54,
+    "test_positives": 30,
+    "calibration_slope": 0.9341059355236931,
+    "calibration_intercept": -3.9423717562846323,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 5,
+    "model": "Driver history",
+    "threshold": 0.04759395568049825,
+    "split_seed": 43100,
+    "fit_subjects": [
+      3,
+      4,
+      6,
+      7,
+      10,
+      14,
+      16,
+      17,
+      18,
+      21,
+      22,
+      23,
+      24
+    ],
+    "calibration_subjects": [
+      8,
+      12,
+      20
+    ],
+    "threshold_subjects": [
+      1,
+      9,
+      15
+    ],
+    "test_subjects": [
+      2,
+      5,
+      13,
+      19
+    ],
+    "fit_positives": 122,
+    "calibration_positives": 64,
+    "threshold_positives": 25,
+    "test_positives": 24,
+    "calibration_slope": 0.3201095300933908,
+    "calibration_intercept": -3.2104980600698747,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 6,
+    "model": "Driver history",
+    "threshold": 0.0757312781819667,
+    "split_seed": 43200,
+    "fit_subjects": [
+      2,
+      4,
+      5,
+      6,
+      12,
+      13,
+      16,
+      17,
+      18,
+      19,
+      21,
+      22,
+      24
+    ],
+    "calibration_subjects": [
+      7,
+      14,
+      20
+    ],
+    "threshold_subjects": [
+      9,
+      15,
+      23
+    ],
+    "test_subjects": [
+      1,
+      3,
+      8,
+      10
+    ],
+    "fit_positives": 78,
+    "calibration_positives": 108,
+    "threshold_positives": 19,
+    "test_positives": 30,
+    "calibration_slope": 0.18985926311856335,
+    "calibration_intercept": -2.622356892744795,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 1,
+    "model": "Automation only",
+    "threshold": 0.025186471154030655,
+    "split_seed": 42700,
+    "fit_subjects": [
+      2,
+      6,
+      7,
+      8,
+      9,
+      10,
+      13,
+      15,
+      17,
+      18,
+      19,
+      20,
+      24
+    ],
+    "calibration_subjects": [
+      4,
+      5,
+      21
+    ],
+    "threshold_subjects": [
+      1,
+      3,
+      22
+    ],
+    "test_subjects": [
+      12,
+      14,
+      16,
+      23
+    ],
+    "fit_positives": 167,
+    "calibration_positives": 20,
+    "threshold_positives": 24,
+    "test_positives": 24,
+    "calibration_slope": 1.6138999761513952,
+    "calibration_intercept": -4.182108672710599,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 2,
+    "model": "Automation only",
+    "threshold": 0.03189169123819544,
+    "split_seed": 42800,
+    "fit_subjects": [
+      1,
+      2,
+      3,
+      5,
+      8,
+      9,
+      10,
+      14,
+      16,
+      18,
+      20,
+      22,
+      23
+    ],
+    "calibration_subjects": [
+      7,
+      13,
+      21
+    ],
+    "threshold_subjects": [
+      12,
+      17,
+      19
+    ],
+    "test_subjects": [
+      4,
+      6,
+      15,
+      24
+    ],
+    "fit_positives": 134,
+    "calibration_positives": 56,
+    "threshold_positives": 20,
+    "test_positives": 25,
+    "calibration_slope": 0.0001,
+    "calibration_intercept": -3.413035583925049,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 3,
+    "model": "Automation only",
+    "threshold": 0.02007821802773209,
+    "split_seed": 42900,
+    "fit_subjects": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      8,
+      9,
+      12,
+      13,
+      15,
+      16,
+      17,
+      19,
+      23
+    ],
+    "calibration_subjects": [
+      3,
+      10,
+      14
+    ],
+    "threshold_subjects": [
+      21,
+      22,
+      24
+    ],
+    "test_subjects": [
+      7,
+      18,
+      20
+    ],
+    "fit_positives": 81,
+    "calibration_positives": 26,
+    "threshold_positives": 26,
+    "test_positives": 102,
+    "calibration_slope": 0.0001,
+    "calibration_intercept": -3.887882282346681,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 4,
+    "model": "Automation only",
+    "threshold": 0.01763270113106236,
+    "split_seed": 43000,
+    "fit_subjects": [
+      2,
+      3,
+      4,
+      5,
+      8,
+      10,
+      12,
+      13,
+      14,
+      15,
+      16,
+      20,
+      23
+    ],
+    "calibration_subjects": [
+      1,
+      6,
+      19
+    ],
+    "threshold_subjects": [
+      7,
+      18,
+      24
+    ],
+    "test_subjects": [
+      9,
+      17,
+      21,
+      22
+    ],
+    "fit_positives": 123,
+    "calibration_positives": 28,
+    "threshold_positives": 54,
+    "test_positives": 30,
+    "calibration_slope": 0.0001,
+    "calibration_intercept": -4.020236810812973,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 5,
+    "model": "Automation only",
+    "threshold": 0.045305332303339656,
+    "split_seed": 43100,
+    "fit_subjects": [
+      3,
+      4,
+      6,
+      7,
+      10,
+      14,
+      16,
+      17,
+      18,
+      21,
+      22,
+      23,
+      24
+    ],
+    "calibration_subjects": [
+      8,
+      12,
+      20
+    ],
+    "threshold_subjects": [
+      1,
+      9,
+      15
+    ],
+    "test_subjects": [
+      2,
+      5,
+      13,
+      19
+    ],
+    "fit_positives": 122,
+    "calibration_positives": 64,
+    "threshold_positives": 25,
+    "test_positives": 24,
+    "calibration_slope": 0.58485276412118,
+    "calibration_intercept": -3.1903918238639513,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 6,
+    "model": "Automation only",
+    "threshold": 0.06753143004990017,
+    "split_seed": 43200,
+    "fit_subjects": [
+      2,
+      4,
+      5,
+      6,
+      12,
+      13,
+      16,
+      17,
+      18,
+      19,
+      21,
+      22,
+      24
+    ],
+    "calibration_subjects": [
+      7,
+      14,
+      20
+    ],
+    "threshold_subjects": [
+      9,
+      15,
+      23
+    ],
+    "test_subjects": [
+      1,
+      3,
+      8,
+      10
+    ],
+    "fit_positives": 78,
+    "calibration_positives": 108,
+    "threshold_positives": 19,
+    "test_positives": 30,
+    "calibration_slope": 0.06193971228950152,
+    "calibration_intercept": -2.6471931814552496,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 1,
+    "model": "Additive",
+    "threshold": 0.05235636986591798,
+    "split_seed": 42700,
+    "fit_subjects": [
+      2,
+      6,
+      7,
+      8,
+      9,
+      10,
+      13,
+      15,
+      17,
+      18,
+      19,
+      20,
+      24
+    ],
+    "calibration_subjects": [
+      4,
+      5,
+      21
+    ],
+    "threshold_subjects": [
+      1,
+      3,
+      22
+    ],
+    "test_subjects": [
+      12,
+      14,
+      16,
+      23
+    ],
+    "fit_positives": 167,
+    "calibration_positives": 20,
+    "threshold_positives": 24,
+    "test_positives": 24,
+    "calibration_slope": 0.7968659563195062,
+    "calibration_intercept": -4.125139423884817,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 2,
+    "model": "Additive",
+    "threshold": 0.09246519696445074,
+    "split_seed": 42800,
+    "fit_subjects": [
+      1,
+      2,
+      3,
+      5,
+      8,
+      9,
+      10,
+      14,
+      16,
+      18,
+      20,
+      22,
+      23
+    ],
+    "calibration_subjects": [
+      7,
+      13,
+      21
+    ],
+    "threshold_subjects": [
+      12,
+      17,
+      19
+    ],
+    "test_subjects": [
+      4,
+      6,
+      15,
+      24
+    ],
+    "fit_positives": 134,
+    "calibration_positives": 56,
+    "threshold_positives": 20,
+    "test_positives": 25,
+    "calibration_slope": 0.8337653087320532,
+    "calibration_intercept": -3.386510694667741,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 3,
+    "model": "Additive",
+    "threshold": 0.06387998261994988,
+    "split_seed": 42900,
+    "fit_subjects": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      8,
+      9,
+      12,
+      13,
+      15,
+      16,
+      17,
+      19,
+      23
+    ],
+    "calibration_subjects": [
+      3,
+      10,
+      14
+    ],
+    "threshold_subjects": [
+      21,
+      22,
+      24
+    ],
+    "test_subjects": [
+      7,
+      18,
+      20
+    ],
+    "fit_positives": 81,
+    "calibration_positives": 26,
+    "threshold_positives": 26,
+    "test_positives": 102,
+    "calibration_slope": 0.6466247816658393,
+    "calibration_intercept": -3.703882018074978,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 4,
+    "model": "Additive",
+    "threshold": 0.06107990280631526,
+    "split_seed": 43000,
+    "fit_subjects": [
+      2,
+      3,
+      4,
+      5,
+      8,
+      10,
+      12,
+      13,
+      14,
+      15,
+      16,
+      20,
+      23
+    ],
+    "calibration_subjects": [
+      1,
+      6,
+      19
+    ],
+    "threshold_subjects": [
+      7,
+      18,
+      24
+    ],
+    "test_subjects": [
+      9,
+      17,
+      21,
+      22
+    ],
+    "fit_positives": 123,
+    "calibration_positives": 28,
+    "threshold_positives": 54,
+    "test_positives": 30,
+    "calibration_slope": 0.7778006241949813,
+    "calibration_intercept": -3.7830148963532793,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 5,
+    "model": "Additive",
+    "threshold": 0.11340615900439421,
+    "split_seed": 43100,
+    "fit_subjects": [
+      3,
+      4,
+      6,
+      7,
+      10,
+      14,
+      16,
+      17,
+      18,
+      21,
+      22,
+      23,
+      24
+    ],
+    "calibration_subjects": [
+      8,
+      12,
+      20
+    ],
+    "threshold_subjects": [
+      1,
+      9,
+      15
+    ],
+    "test_subjects": [
+      2,
+      5,
+      13,
+      19
+    ],
+    "fit_positives": 122,
+    "calibration_positives": 64,
+    "threshold_positives": 25,
+    "test_positives": 24,
+    "calibration_slope": 1.021482479482315,
+    "calibration_intercept": -3.2838412492161484,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 6,
+    "model": "Additive",
+    "threshold": 0.1696822062774503,
+    "split_seed": 43200,
+    "fit_subjects": [
+      2,
+      4,
+      5,
+      6,
+      12,
+      13,
+      16,
+      17,
+      18,
+      19,
+      21,
+      22,
+      24
+    ],
+    "calibration_subjects": [
+      7,
+      14,
+      20
+    ],
+    "threshold_subjects": [
+      9,
+      15,
+      23
+    ],
+    "test_subjects": [
+      1,
+      3,
+      8,
+      10
+    ],
+    "fit_positives": 78,
+    "calibration_positives": 108,
+    "threshold_positives": 19,
+    "test_positives": 30,
+    "calibration_slope": 0.7246101149197259,
+    "calibration_intercept": -2.4732635909323175,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 1,
+    "model": "Interaction",
+    "threshold": 0.04414486459259491,
+    "split_seed": 42700,
+    "fit_subjects": [
+      2,
+      6,
+      7,
+      8,
+      9,
+      10,
+      13,
+      15,
+      17,
+      18,
+      19,
+      20,
+      24
+    ],
+    "calibration_subjects": [
+      4,
+      5,
+      21
+    ],
+    "threshold_subjects": [
+      1,
+      3,
+      22
+    ],
+    "test_subjects": [
+      12,
+      14,
+      16,
+      23
+    ],
+    "fit_positives": 167,
+    "calibration_positives": 20,
+    "threshold_positives": 24,
+    "test_positives": 24,
+    "calibration_slope": 0.7741708102853407,
+    "calibration_intercept": -4.179930628603742,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 2,
+    "model": "Interaction",
+    "threshold": 0.08841020975965484,
+    "split_seed": 42800,
+    "fit_subjects": [
+      1,
+      2,
+      3,
+      5,
+      8,
+      9,
+      10,
+      14,
+      16,
+      18,
+      20,
+      22,
+      23
+    ],
+    "calibration_subjects": [
+      7,
+      13,
+      21
+    ],
+    "threshold_subjects": [
+      12,
+      17,
+      19
+    ],
+    "test_subjects": [
+      4,
+      6,
+      15,
+      24
+    ],
+    "fit_positives": 134,
+    "calibration_positives": 56,
+    "threshold_positives": 20,
+    "test_positives": 25,
+    "calibration_slope": 0.7298626063239945,
+    "calibration_intercept": -3.335171716501779,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 3,
+    "model": "Interaction",
+    "threshold": 0.05667581780550933,
+    "split_seed": 42900,
+    "fit_subjects": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      8,
+      9,
+      12,
+      13,
+      15,
+      16,
+      17,
+      19,
+      23
+    ],
+    "calibration_subjects": [
+      3,
+      10,
+      14
+    ],
+    "threshold_subjects": [
+      21,
+      22,
+      24
+    ],
+    "test_subjects": [
+      7,
+      18,
+      20
+    ],
+    "fit_positives": 81,
+    "calibration_positives": 26,
+    "threshold_positives": 26,
+    "test_positives": 102,
+    "calibration_slope": 0.6343679209503006,
+    "calibration_intercept": -3.683677859184619,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 4,
+    "model": "Interaction",
+    "threshold": 0.0548450299069584,
+    "split_seed": 43000,
+    "fit_subjects": [
+      2,
+      3,
+      4,
+      5,
+      8,
+      10,
+      12,
+      13,
+      14,
+      15,
+      16,
+      20,
+      23
+    ],
+    "calibration_subjects": [
+      1,
+      6,
+      19
+    ],
+    "threshold_subjects": [
+      7,
+      18,
+      24
+    ],
+    "test_subjects": [
+      9,
+      17,
+      21,
+      22
+    ],
+    "fit_positives": 123,
+    "calibration_positives": 28,
+    "threshold_positives": 54,
+    "test_positives": 30,
+    "calibration_slope": 0.7384808388781261,
+    "calibration_intercept": -3.790650916212314,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 5,
+    "model": "Interaction",
+    "threshold": 0.10757678550032494,
+    "split_seed": 43100,
+    "fit_subjects": [
+      3,
+      4,
+      6,
+      7,
+      10,
+      14,
+      16,
+      17,
+      18,
+      21,
+      22,
+      23,
+      24
+    ],
+    "calibration_subjects": [
+      8,
+      12,
+      20
+    ],
+    "threshold_subjects": [
+      1,
+      9,
+      15
+    ],
+    "test_subjects": [
+      2,
+      5,
+      13,
+      19
+    ],
+    "fit_positives": 122,
+    "calibration_positives": 64,
+    "threshold_positives": 25,
+    "test_positives": 24,
+    "calibration_slope": 1.0118795970728096,
+    "calibration_intercept": -3.315638363671394,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 6,
+    "model": "Interaction",
+    "threshold": 0.15527805358235292,
+    "split_seed": 43200,
+    "fit_subjects": [
+      2,
+      4,
+      5,
+      6,
+      12,
+      13,
+      16,
+      17,
+      18,
+      19,
+      21,
+      22,
+      24
+    ],
+    "calibration_subjects": [
+      7,
+      14,
+      20
+    ],
+    "threshold_subjects": [
+      9,
+      15,
+      23
+    ],
+    "test_subjects": [
+      1,
+      3,
+      8,
+      10
+    ],
+    "fit_positives": 78,
+    "calibration_positives": 108,
+    "threshold_positives": 19,
+    "test_positives": 30,
+    "calibration_slope": 0.6549910404062255,
+    "calibration_intercept": -2.465207347700376,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 1,
+    "model": "HGB",
+    "threshold": 0.04209290733361497,
+    "split_seed": 42700,
+    "fit_subjects": [
+      2,
+      6,
+      7,
+      8,
+      9,
+      10,
+      13,
+      15,
+      17,
+      18,
+      19,
+      20,
+      24
+    ],
+    "calibration_subjects": [
+      4,
+      5,
+      21
+    ],
+    "threshold_subjects": [
+      1,
+      3,
+      22
+    ],
+    "test_subjects": [
+      12,
+      14,
+      16,
+      23
+    ],
+    "fit_positives": 167,
+    "calibration_positives": 20,
+    "threshold_positives": 24,
+    "test_positives": 24,
+    "calibration_slope": 0.6698553167225368,
+    "calibration_intercept": -1.5082632932470457,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 2,
+    "model": "HGB",
+    "threshold": 0.07866169372018283,
+    "split_seed": 42800,
+    "fit_subjects": [
+      1,
+      2,
+      3,
+      5,
+      8,
+      9,
+      10,
+      14,
+      16,
+      18,
+      20,
+      22,
+      23
+    ],
+    "calibration_subjects": [
+      7,
+      13,
+      21
+    ],
+    "threshold_subjects": [
+      12,
+      17,
+      19
+    ],
+    "test_subjects": [
+      4,
+      6,
+      15,
+      24
+    ],
+    "fit_positives": 134,
+    "calibration_positives": 56,
+    "threshold_positives": 20,
+    "test_positives": 25,
+    "calibration_slope": 0.7015430525604128,
+    "calibration_intercept": -0.5721508988299522,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 3,
+    "model": "HGB",
+    "threshold": 0.06796194730826843,
+    "split_seed": 42900,
+    "fit_subjects": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      8,
+      9,
+      12,
+      13,
+      15,
+      16,
+      17,
+      19,
+      23
+    ],
+    "calibration_subjects": [
+      3,
+      10,
+      14
+    ],
+    "threshold_subjects": [
+      21,
+      22,
+      24
+    ],
+    "test_subjects": [
+      7,
+      18,
+      20
+    ],
+    "fit_positives": 81,
+    "calibration_positives": 26,
+    "threshold_positives": 26,
+    "test_positives": 102,
+    "calibration_slope": 0.7330861701001679,
+    "calibration_intercept": -0.3427242726413656,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 4,
+    "model": "HGB",
+    "threshold": 0.06714315081709209,
+    "split_seed": 43000,
+    "fit_subjects": [
+      2,
+      3,
+      4,
+      5,
+      8,
+      10,
+      12,
+      13,
+      14,
+      15,
+      16,
+      20,
+      23
+    ],
+    "calibration_subjects": [
+      1,
+      6,
+      19
+    ],
+    "threshold_subjects": [
+      7,
+      18,
+      24
+    ],
+    "test_subjects": [
+      9,
+      17,
+      21,
+      22
+    ],
+    "fit_positives": 123,
+    "calibration_positives": 28,
+    "threshold_positives": 54,
+    "test_positives": 30,
+    "calibration_slope": 0.8473054443121097,
+    "calibration_intercept": -0.3835274837218912,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 5,
+    "model": "HGB",
+    "threshold": 0.09727244708124402,
+    "split_seed": 43100,
+    "fit_subjects": [
+      3,
+      4,
+      6,
+      7,
+      10,
+      14,
+      16,
+      17,
+      18,
+      21,
+      22,
+      23,
+      24
+    ],
+    "calibration_subjects": [
+      8,
+      12,
+      20
+    ],
+    "threshold_subjects": [
+      1,
+      9,
+      15
+    ],
+    "test_subjects": [
+      2,
+      5,
+      13,
+      19
+    ],
+    "fit_positives": 122,
+    "calibration_positives": 64,
+    "threshold_positives": 25,
+    "test_positives": 24,
+    "calibration_slope": 0.8683046816909002,
+    "calibration_intercept": 0.23831654772570962,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 6,
+    "model": "HGB",
+    "threshold": 0.13309307368663367,
+    "split_seed": 43200,
+    "fit_subjects": [
+      2,
+      4,
+      5,
+      6,
+      12,
+      13,
+      16,
+      17,
+      18,
+      19,
+      21,
+      22,
+      24
+    ],
+    "calibration_subjects": [
+      7,
+      14,
+      20
+    ],
+    "threshold_subjects": [
+      9,
+      15,
+      23
+    ],
+    "test_subjects": [
+      1,
+      3,
+      8,
+      10
+    ],
+    "fit_positives": 78,
+    "calibration_positives": 108,
+    "threshold_positives": 19,
+    "test_positives": 30,
+    "calibration_slope": 0.5944131614252376,
+    "calibration_intercept": 0.2128001054265433,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 1,
+    "model": "MLP",
+    "threshold": 0.03632533975658854,
+    "split_seed": 42700,
+    "fit_subjects": [
+      2,
+      6,
+      7,
+      8,
+      9,
+      10,
+      13,
+      15,
+      17,
+      18,
+      19,
+      20,
+      24
+    ],
+    "calibration_subjects": [
+      4,
+      5,
+      21
+    ],
+    "threshold_subjects": [
+      1,
+      3,
+      22
+    ],
+    "test_subjects": [
+      12,
+      14,
+      16,
+      23
+    ],
+    "fit_positives": 167,
+    "calibration_positives": 20,
+    "threshold_positives": 24,
+    "test_positives": 24,
+    "calibration_slope": 1.3698256520268128,
+    "calibration_intercept": 0.6449678552487175,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 2,
+    "model": "MLP",
+    "threshold": 0.06626774447458827,
+    "split_seed": 42800,
+    "fit_subjects": [
+      1,
+      2,
+      3,
+      5,
+      8,
+      9,
+      10,
+      14,
+      16,
+      18,
+      20,
+      22,
+      23
+    ],
+    "calibration_subjects": [
+      7,
+      13,
+      21
+    ],
+    "threshold_subjects": [
+      12,
+      17,
+      19
+    ],
+    "test_subjects": [
+      4,
+      6,
+      15,
+      24
+    ],
+    "fit_positives": 134,
+    "calibration_positives": 56,
+    "threshold_positives": 20,
+    "test_positives": 25,
+    "calibration_slope": 1.912173530346666,
+    "calibration_intercept": 3.7483513162230118,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 3,
+    "model": "MLP",
+    "threshold": 0.029113669588920213,
+    "split_seed": 42900,
+    "fit_subjects": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      8,
+      9,
+      12,
+      13,
+      15,
+      16,
+      17,
+      19,
+      23
+    ],
+    "calibration_subjects": [
+      3,
+      10,
+      14
+    ],
+    "threshold_subjects": [
+      21,
+      22,
+      24
+    ],
+    "test_subjects": [
+      7,
+      18,
+      20
+    ],
+    "fit_positives": 81,
+    "calibration_positives": 26,
+    "threshold_positives": 26,
+    "test_positives": 102,
+    "calibration_slope": 5.253466255944765,
+    "calibration_intercept": 20.0,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 4,
+    "model": "MLP",
+    "threshold": 0.054439104556762645,
+    "split_seed": 43000,
+    "fit_subjects": [
+      2,
+      3,
+      4,
+      5,
+      8,
+      10,
+      12,
+      13,
+      14,
+      15,
+      16,
+      20,
+      23
+    ],
+    "calibration_subjects": [
+      1,
+      6,
+      19
+    ],
+    "threshold_subjects": [
+      7,
+      18,
+      24
+    ],
+    "test_subjects": [
+      9,
+      17,
+      21,
+      22
+    ],
+    "fit_positives": 123,
+    "calibration_positives": 28,
+    "threshold_positives": 54,
+    "test_positives": 30,
+    "calibration_slope": 1.575587782841477,
+    "calibration_intercept": 2.2417949904164396,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 5,
+    "model": "MLP",
+    "threshold": 0.07463140760984438,
+    "split_seed": 43100,
+    "fit_subjects": [
+      3,
+      4,
+      6,
+      7,
+      10,
+      14,
+      16,
+      17,
+      18,
+      21,
+      22,
+      23,
+      24
+    ],
+    "calibration_subjects": [
+      8,
+      12,
+      20
+    ],
+    "threshold_subjects": [
+      1,
+      9,
+      15
+    ],
+    "test_subjects": [
+      2,
+      5,
+      13,
+      19
+    ],
+    "fit_positives": 122,
+    "calibration_positives": 64,
+    "threshold_positives": 25,
+    "test_positives": 24,
+    "calibration_slope": 2.97598248389177,
+    "calibration_intercept": 8.200867586504494,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 6,
+    "model": "MLP",
+    "threshold": 0.09795779522983991,
+    "split_seed": 43200,
+    "fit_subjects": [
+      2,
+      4,
+      5,
+      6,
+      12,
+      13,
+      16,
+      17,
+      18,
+      19,
+      21,
+      22,
+      24
+    ],
+    "calibration_subjects": [
+      7,
+      14,
+      20
+    ],
+    "threshold_subjects": [
+      9,
+      15,
+      23
+    ],
+    "test_subjects": [
+      1,
+      3,
+      8,
+      10
+    ],
+    "fit_positives": 78,
+    "calibration_positives": 108,
+    "threshold_positives": 19,
+    "test_positives": 30,
+    "calibration_slope": 4.679732879696649,
+    "calibration_intercept": 17.625659780933017,
+    "horizon_seconds": 8.0
+  },
+  {
+    "fold": 1,
+    "model": "Additive",
+    "threshold": 0.04161077433023532,
+    "split_seed": 42700,
+    "fit_subjects": [
+      2,
+      6,
+      7,
+      8,
+      9,
+      10,
+      13,
+      15,
+      17,
+      18,
+      19,
+      20,
+      24
+    ],
+    "calibration_subjects": [
+      4,
+      5,
+      21
+    ],
+    "threshold_subjects": [
+      1,
+      3,
+      22
+    ],
+    "test_subjects": [
+      12,
+      14,
+      16,
+      23
+    ],
+    "fit_positives": 90,
+    "calibration_positives": 10,
+    "threshold_positives": 12,
+    "test_positives": 12,
+    "calibration_slope": 0.8499839708729916,
+    "calibration_intercept": -4.841137610307252,
+    "horizon_seconds": 4.0
+  },
+  {
+    "fold": 2,
+    "model": "Additive",
+    "threshold": 0.07944890740507027,
+    "split_seed": 42800,
+    "fit_subjects": [
+      1,
+      2,
+      3,
+      4,
+      8,
+      9,
+      10,
+      14,
+      15,
+      17,
+      21,
+      23,
+      24
+    ],
+    "calibration_subjects": [
+      7,
+      13,
+      22
+    ],
+    "threshold_subjects": [
+      12,
+      16,
+      18
+    ],
+    "test_subjects": [
+      5,
+      6,
+      19,
+      20
+    ],
+    "fit_positives": 43,
+    "calibration_positives": 31,
+    "threshold_positives": 7,
+    "test_positives": 43,
+    "calibration_slope": 0.5230067844247734,
+    "calibration_intercept": -3.3399444549965422,
+    "horizon_seconds": 4.0
+  },
+  {
+    "fold": 3,
+    "model": "Additive",
+    "threshold": 0.07728730437002312,
+    "split_seed": 42900,
+    "fit_subjects": [
+      1,
+      2,
+      5,
+      6,
+      9,
+      10,
+      12,
+      17,
+      18,
+      20,
+      21,
+      22,
+      23
+    ],
+    "calibration_subjects": [
+      3,
+      14,
+      15
+    ],
+    "threshold_subjects": [
+      8,
+      16,
+      19
+    ],
+    "test_subjects": [
+      4,
+      7,
+      13,
+      24
+    ],
+    "fit_positives": 73,
+    "calibration_positives": 12,
+    "threshold_positives": 9,
+    "test_positives": 30,
+    "calibration_slope": 0.7442674208287269,
+    "calibration_intercept": -3.8180540858952527,
+    "horizon_seconds": 4.0
+  },
+  {
+    "fold": 4,
+    "model": "Additive",
+    "threshold": 0.08996802437319915,
+    "split_seed": 43000,
+    "fit_subjects": [
+      4,
+      5,
+      6,
+      7,
+      10,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      21,
+      23
+    ],
+    "calibration_subjects": [
+      2,
+      8,
+      20
+    ],
+    "threshold_subjects": [
+      9,
+      19,
+      24
+    ],
+    "test_subjects": [
+      1,
+      3,
+      17,
+      22
+    ],
+    "fit_positives": 65,
+    "calibration_positives": 34,
+    "threshold_positives": 11,
+    "test_positives": 14,
+    "calibration_slope": 0.7504133566949576,
+    "calibration_intercept": -3.6449981571651655,
+    "horizon_seconds": 4.0
+  },
+  {
+    "fold": 5,
+    "model": "Additive",
+    "threshold": 0.0958088737930824,
+    "split_seed": 43100,
+    "fit_subjects": [
+      3,
+      4,
+      5,
+      6,
+      10,
+      13,
+      15,
+      16,
+      17,
+      20,
+      22,
+      23,
+      24
+    ],
+    "calibration_subjects": [
+      7,
+      12,
+      19
+    ],
+    "threshold_subjects": [
+      1,
+      8,
+      14
+    ],
+    "test_subjects": [
+      2,
+      9,
+      18,
+      21
+    ],
+    "fit_positives": 68,
+    "calibration_positives": 32,
+    "threshold_positives": 12,
+    "test_positives": 12,
+    "calibration_slope": 0.707650821477028,
+    "calibration_intercept": -3.2835971188753836,
+    "horizon_seconds": 4.0
+  },
+  {
+    "fold": 6,
+    "model": "Additive",
+    "threshold": 0.10241082629163017,
+    "split_seed": 43200,
+    "fit_subjects": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      14,
+      17,
+      18,
+      21,
+      22,
+      24
+    ],
+    "calibration_subjects": [
+      12,
+      20,
+      23
+    ],
+    "threshold_subjects": [
+      13,
+      16,
+      19
+    ],
+    "test_subjects": [
+      8,
+      10,
+      15
+    ],
+    "fit_positives": 67,
+    "calibration_positives": 35,
+    "threshold_positives": 9,
+    "test_positives": 13,
+    "calibration_slope": 0.7488773443071495,
+    "calibration_intercept": -3.433726089569396,
+    "horizon_seconds": 4.0
+  },
+  {
+    "fold": 1,
+    "model": "Interaction",
+    "threshold": 0.04162411046896485,
+    "split_seed": 42700,
+    "fit_subjects": [
+      2,
+      6,
+      7,
+      8,
+      9,
+      10,
+      13,
+      15,
+      17,
+      18,
+      19,
+      20,
+      24
+    ],
+    "calibration_subjects": [
+      4,
+      5,
+      21
+    ],
+    "threshold_subjects": [
+      1,
+      3,
+      22
+    ],
+    "test_subjects": [
+      12,
+      14,
+      16,
+      23
+    ],
+    "fit_positives": 90,
+    "calibration_positives": 10,
+    "threshold_positives": 12,
+    "test_positives": 12,
+    "calibration_slope": 0.7524975043901335,
+    "calibration_intercept": -4.662683633685947,
+    "horizon_seconds": 4.0
+  },
+  {
+    "fold": 2,
+    "model": "Interaction",
+    "threshold": 0.08941612796618345,
+    "split_seed": 42800,
+    "fit_subjects": [
+      1,
+      2,
+      3,
+      4,
+      8,
+      9,
+      10,
+      14,
+      15,
+      17,
+      21,
+      23,
+      24
+    ],
+    "calibration_subjects": [
+      7,
+      13,
+      22
+    ],
+    "threshold_subjects": [
+      12,
+      16,
+      18
+    ],
+    "test_subjects": [
+      5,
+      6,
+      19,
+      20
+    ],
+    "fit_positives": 43,
+    "calibration_positives": 31,
+    "threshold_positives": 7,
+    "test_positives": 43,
+    "calibration_slope": 0.45004713258243767,
+    "calibration_intercept": -3.1579399079975023,
+    "horizon_seconds": 4.0
+  },
+  {
+    "fold": 3,
+    "model": "Interaction",
+    "threshold": 0.074657850372132,
+    "split_seed": 42900,
+    "fit_subjects": [
+      1,
+      2,
+      5,
+      6,
+      9,
+      10,
+      12,
+      17,
+      18,
+      20,
+      21,
+      22,
+      23
+    ],
+    "calibration_subjects": [
+      3,
+      14,
+      15
+    ],
+    "threshold_subjects": [
+      8,
+      16,
+      19
+    ],
+    "test_subjects": [
+      4,
+      7,
+      13,
+      24
+    ],
+    "fit_positives": 73,
+    "calibration_positives": 12,
+    "threshold_positives": 9,
+    "test_positives": 30,
+    "calibration_slope": 0.6711236804871342,
+    "calibration_intercept": -3.7252534753451276,
+    "horizon_seconds": 4.0
+  },
+  {
+    "fold": 4,
+    "model": "Interaction",
+    "threshold": 0.08631004923672775,
+    "split_seed": 43000,
+    "fit_subjects": [
+      4,
+      5,
+      6,
+      7,
+      10,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      21,
+      23
+    ],
+    "calibration_subjects": [
+      2,
+      8,
+      20
+    ],
+    "threshold_subjects": [
+      9,
+      19,
+      24
+    ],
+    "test_subjects": [
+      1,
+      3,
+      17,
+      22
+    ],
+    "fit_positives": 65,
+    "calibration_positives": 34,
+    "threshold_positives": 11,
+    "test_positives": 14,
+    "calibration_slope": 0.6398944095496744,
+    "calibration_intercept": -3.4986228004560873,
+    "horizon_seconds": 4.0
+  },
+  {
+    "fold": 5,
+    "model": "Interaction",
+    "threshold": 0.09400480493444427,
+    "split_seed": 43100,
+    "fit_subjects": [
+      3,
+      4,
+      5,
+      6,
+      10,
+      13,
+      15,
+      16,
+      17,
+      20,
+      22,
+      23,
+      24
+    ],
+    "calibration_subjects": [
+      7,
+      12,
+      19
+    ],
+    "threshold_subjects": [
+      1,
+      8,
+      14
+    ],
+    "test_subjects": [
+      2,
+      9,
+      18,
+      21
+    ],
+    "fit_positives": 68,
+    "calibration_positives": 32,
+    "threshold_positives": 12,
+    "test_positives": 12,
+    "calibration_slope": 0.6139836633026461,
+    "calibration_intercept": -3.204734665050899,
+    "horizon_seconds": 4.0
+  },
+  {
+    "fold": 6,
+    "model": "Interaction",
+    "threshold": 0.09886674759277381,
+    "split_seed": 43200,
+    "fit_subjects": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      14,
+      17,
+      18,
+      21,
+      22,
+      24
+    ],
+    "calibration_subjects": [
+      12,
+      20,
+      23
+    ],
+    "threshold_subjects": [
+      13,
+      16,
+      19
+    ],
+    "test_subjects": [
+      8,
+      10,
+      15
+    ],
+    "fit_positives": 67,
+    "calibration_positives": 35,
+    "threshold_positives": 9,
+    "test_positives": 13,
+    "calibration_slope": 0.7059630331966698,
+    "calibration_intercept": -3.411772836407568,
+    "horizon_seconds": 4.0
+  },
+  {
+    "fold": 1,
+    "model": "Additive",
+    "threshold": 0.056380066030524874,
+    "split_seed": 42700,
+    "fit_subjects": [
+      2,
+      6,
+      7,
+      8,
+      9,
+      10,
+      13,
+      15,
+      17,
+      18,
+      19,
+      20,
+      24
+    ],
+    "calibration_subjects": [
+      4,
+      5,
+      21
+    ],
+    "threshold_subjects": [
+      1,
+      3,
+      22
+    ],
+    "test_subjects": [
+      12,
+      14,
+      16,
+      23
+    ],
+    "fit_positives": 183,
+    "calibration_positives": 21,
+    "threshold_positives": 24,
+    "test_positives": 25,
+    "calibration_slope": 0.8241556751316776,
+    "calibration_intercept": -4.108103390607721,
+    "horizon_seconds": 12.0
+  },
+  {
+    "fold": 2,
+    "model": "Additive",
+    "threshold": 0.08121915104842467,
+    "split_seed": 42800,
+    "fit_subjects": [
+      1,
+      2,
+      3,
+      5,
+      8,
+      9,
+      10,
+      14,
+      16,
+      18,
+      21,
+      23,
+      24
+    ],
+    "calibration_subjects": [
+      7,
+      13,
+      22
+    ],
+    "threshold_subjects": [
+      12,
+      17,
+      19
+    ],
+    "test_subjects": [
+      4,
+      6,
+      15,
+      20
+    ],
+    "fit_positives": 90,
+    "calibration_positives": 57,
+    "threshold_positives": 21,
+    "test_positives": 85,
+    "calibration_slope": 0.6055205206184844,
+    "calibration_intercept": -3.1819356576312297,
+    "horizon_seconds": 12.0
+  },
+  {
+    "fold": 3,
+    "model": "Additive",
+    "threshold": 0.0380095341380007,
+    "split_seed": 42900,
+    "fit_subjects": [
+      1,
+      2,
+      4,
+      5,
+      7,
+      8,
+      10,
+      15,
+      16,
+      20,
+      22,
+      23,
+      24
+    ],
+    "calibration_subjects": [
+      3,
+      12,
+      13
+    ],
+    "threshold_subjects": [
+      6,
+      14,
+      19
+    ],
+    "test_subjects": [
+      9,
+      17,
+      18,
+      21
+    ],
+    "fit_positives": 186,
+    "calibration_positives": 13,
+    "threshold_positives": 30,
+    "test_positives": 24,
+    "calibration_slope": 0.9184295975116099,
+    "calibration_intercept": -4.320325393853879,
+    "horizon_seconds": 12.0
+  },
+  {
+    "fold": 4,
+    "model": "Additive",
+    "threshold": 0.05530197395090096,
+    "split_seed": 43000,
+    "fit_subjects": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      14,
+      15,
+      16,
+      17,
+      20,
+      22
+    ],
+    "calibration_subjects": [
+      12,
+      19,
+      21
+    ],
+    "threshold_subjects": [
+      1,
+      18,
+      23
+    ],
+    "test_subjects": [
+      7,
+      13,
+      24
+    ],
+    "fit_positives": 155,
+    "calibration_positives": 27,
+    "threshold_positives": 18,
+    "test_positives": 53,
+    "calibration_slope": 0.9051247455594631,
+    "calibration_intercept": -3.876440590232261,
+    "horizon_seconds": 12.0
+  },
+  {
+    "fold": 5,
+    "model": "Additive",
+    "threshold": 0.03387085083179637,
+    "split_seed": 43100,
+    "fit_subjects": [
+      3,
+      4,
+      6,
+      7,
+      10,
+      13,
+      15,
+      16,
+      17,
+      20,
+      21,
+      23,
+      24
+    ],
+    "calibration_subjects": [
+      8,
+      12,
+      18
+    ],
+    "threshold_subjects": [
+      1,
+      9,
+      14
+    ],
+    "test_subjects": [
+      2,
+      5,
+      19,
+      22
+    ],
+    "fit_positives": 178,
+    "calibration_positives": 14,
+    "threshold_positives": 27,
+    "test_positives": 34,
+    "calibration_slope": 0.9446937763527521,
+    "calibration_intercept": -4.40910579134893,
+    "horizon_seconds": 12.0
+  },
+  {
+    "fold": 6,
+    "model": "Additive",
+    "threshold": 0.17948501544345052,
+    "split_seed": 43200,
+    "fit_subjects": [
+      2,
+      4,
+      5,
+      6,
+      12,
+      13,
+      16,
+      17,
+      18,
+      19,
+      21,
+      22,
+      24
+    ],
+    "calibration_subjects": [
+      7,
+      14,
+      20
+    ],
+    "threshold_subjects": [
+      9,
+      15,
+      23
+    ],
+    "test_subjects": [
+      1,
+      3,
+      8,
+      10
+    ],
+    "fit_positives": 81,
+    "calibration_positives": 119,
+    "threshold_positives": 21,
+    "test_positives": 32,
+    "calibration_slope": 0.6785754342542957,
+    "calibration_intercept": -2.354482428482161,
+    "horizon_seconds": 12.0
+  },
+  {
+    "fold": 1,
+    "model": "Interaction",
+    "threshold": 0.04557293173034267,
+    "split_seed": 42700,
+    "fit_subjects": [
+      2,
+      6,
+      7,
+      8,
+      9,
+      10,
+      13,
+      15,
+      17,
+      18,
+      19,
+      20,
+      24
+    ],
+    "calibration_subjects": [
+      4,
+      5,
+      21
+    ],
+    "threshold_subjects": [
+      1,
+      3,
+      22
+    ],
+    "test_subjects": [
+      12,
+      14,
+      16,
+      23
+    ],
+    "fit_positives": 183,
+    "calibration_positives": 21,
+    "threshold_positives": 24,
+    "test_positives": 25,
+    "calibration_slope": 0.7860691090817827,
+    "calibration_intercept": -4.155308598464045,
+    "horizon_seconds": 12.0
+  },
+  {
+    "fold": 2,
+    "model": "Interaction",
+    "threshold": 0.08485047112029628,
+    "split_seed": 42800,
+    "fit_subjects": [
+      1,
+      2,
+      3,
+      5,
+      8,
+      9,
+      10,
+      14,
+      16,
+      18,
+      21,
+      23,
+      24
+    ],
+    "calibration_subjects": [
+      7,
+      13,
+      22
+    ],
+    "threshold_subjects": [
+      12,
+      17,
+      19
+    ],
+    "test_subjects": [
+      4,
+      6,
+      15,
+      20
+    ],
+    "fit_positives": 90,
+    "calibration_positives": 57,
+    "threshold_positives": 21,
+    "test_positives": 85,
+    "calibration_slope": 0.5961142429536342,
+    "calibration_intercept": -3.174585409954575,
+    "horizon_seconds": 12.0
+  },
+  {
+    "fold": 3,
+    "model": "Interaction",
+    "threshold": 0.034780370653916086,
+    "split_seed": 42900,
+    "fit_subjects": [
+      1,
+      2,
+      4,
+      5,
+      7,
+      8,
+      10,
+      15,
+      16,
+      20,
+      22,
+      23,
+      24
+    ],
+    "calibration_subjects": [
+      3,
+      12,
+      13
+    ],
+    "threshold_subjects": [
+      6,
+      14,
+      19
+    ],
+    "test_subjects": [
+      9,
+      17,
+      18,
+      21
+    ],
+    "fit_positives": 186,
+    "calibration_positives": 13,
+    "threshold_positives": 30,
+    "test_positives": 24,
+    "calibration_slope": 0.9337305030876311,
+    "calibration_intercept": -4.316528200843988,
+    "horizon_seconds": 12.0
+  },
+  {
+    "fold": 4,
+    "model": "Interaction",
+    "threshold": 0.04367101391721933,
+    "split_seed": 43000,
+    "fit_subjects": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      14,
+      15,
+      16,
+      17,
+      20,
+      22
+    ],
+    "calibration_subjects": [
+      12,
+      19,
+      21
+    ],
+    "threshold_subjects": [
+      1,
+      18,
+      23
+    ],
+    "test_subjects": [
+      7,
+      13,
+      24
+    ],
+    "fit_positives": 155,
+    "calibration_positives": 27,
+    "threshold_positives": 18,
+    "test_positives": 53,
+    "calibration_slope": 0.7002552393454756,
+    "calibration_intercept": -3.8668618944370152,
+    "horizon_seconds": 12.0
+  },
+  {
+    "fold": 5,
+    "model": "Interaction",
+    "threshold": 0.030679087624399918,
+    "split_seed": 43100,
+    "fit_subjects": [
+      3,
+      4,
+      6,
+      7,
+      10,
+      13,
+      15,
+      16,
+      17,
+      20,
+      21,
+      23,
+      24
+    ],
+    "calibration_subjects": [
+      8,
+      12,
+      18
+    ],
+    "threshold_subjects": [
+      1,
+      9,
+      14
+    ],
+    "test_subjects": [
+      2,
+      5,
+      19,
+      22
+    ],
+    "fit_positives": 178,
+    "calibration_positives": 14,
+    "threshold_positives": 27,
+    "test_positives": 34,
+    "calibration_slope": 0.8604659621781166,
+    "calibration_intercept": -4.404309929617082,
+    "horizon_seconds": 12.0
+  },
+  {
+    "fold": 6,
+    "model": "Interaction",
+    "threshold": 0.16206110763234233,
+    "split_seed": 43200,
+    "fit_subjects": [
+      2,
+      4,
+      5,
+      6,
+      12,
+      13,
+      16,
+      17,
+      18,
+      19,
+      21,
+      22,
+      24
+    ],
+    "calibration_subjects": [
+      7,
+      14,
+      20
+    ],
+    "threshold_subjects": [
+      9,
+      15,
+      23
+    ],
+    "test_subjects": [
+      1,
+      3,
+      8,
+      10
+    ],
+    "fit_positives": 81,
+    "calibration_positives": 119,
+    "threshold_positives": 21,
+    "test_positives": 32,
+    "calibration_slope": 0.6092308821995984,
+    "calibration_intercept": -2.351721476224648,
+    "horizon_seconds": 12.0
+  }
+]

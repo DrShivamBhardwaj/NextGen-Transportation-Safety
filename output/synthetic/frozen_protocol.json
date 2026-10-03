@@ -1,0 +1,101 @@
+{
+  "configuration": {
+    "sequences": 80,
+    "frames": 40,
+    "forecast_frames": 10,
+    "sampling_hz": 10,
+    "alpha": 0.35,
+    "rho": [
+      0.95,
+      0.9,
+      0.92
+    ],
+    "train_seeds": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005,
+      6006,
+      6007,
+      6008,
+      6009,
+      6010,
+      6011,
+      6012,
+      6013,
+      6014,
+      6015,
+      6016,
+      6017,
+      6018,
+      6019,
+      6020
+    ],
+    "calibration_seeds": [
+      7001,
+      7002,
+      7003,
+      7004,
+      7005
+    ],
+    "threshold_seeds": [
+      7006,
+      7007,
+      7008,
+      7009,
+      7010
+    ],
+    "evaluation_seeds": [
+      8001,
+      8002,
+      8003,
+      8004,
+      8005,
+      8006,
+      8007,
+      8008,
+      8009,
+      8010,
+      8011,
+      8012,
+      8013,
+      8014,
+      8015,
+      8016,
+      8017,
+      8018,
+      8019,
+      8020,
+      8021,
+      8022,
+      8023,
+      8024,
+      8025,
+      8026,
+      8027,
+      8028,
+      8029,
+      8030
+    ],
+    "scenarios": [
+      "clean",
+      "iid10",
+      "iid20",
+      "iid30",
+      "burst30",
+      "noise",
+      "quality_bias",
+      "driver_shuffle"
+    ],
+    "primary": "contemporaneous clean AP; eleven baseline contrasts with two-sided Wilcoxon and Holm",
+    "forecast": "exploratory one-second-ahead stochastic event state; no observed accident outcomes"
+  },
+  "source_sha256": {
+    "code/eventstudy.py": "bce74da27316a851d8702e664e08cb67a858ccb5e448aaa7c63407d95265318c",
+    "code/fusion.py": "60e88b6d958d0710fe107e43b1034f0d821b575cf59eade0b252068514d0c7a2",
+    "code/simulation.py": "e6a2e0955bc32d02664762e36ca1a0c3854e4a63a929e1a0b1f657c7916af834",
+    "code/test_invariants.py": "ad65de447e54fd49bfe66e05142e6c89cf3b880362ffd43774a5616a269dfe01"
+  },
+  "scope": "versioned experiment; no retrospective preregistration claim"
+}

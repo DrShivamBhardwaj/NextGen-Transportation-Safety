@@ -1,0 +1,43 @@
+fitted 0 E-only
+fitted 0 H-only
+fitted 0 T-only
+fitted 0 H+T
+fitted 0 Additive
+fitted 0 Static interaction
+fitted 0 Quality static
+fitted 0 Quality temporal
+fitted 0 HGB quality
+fitted 0 HGB full
+fitted 0 MLP full
+fitted 0 UATIF
+fitted 0 No quality
+fitted 0 No temporal
+fitted 0 No interactions
+fitted 0 No driver
+fitted 0 No telemetry
+fitted 10 E-only
+fitted 10 H-only
+fitted 10 T-only
+fitted 10 H+T
+fitted 10 Additive
+fitted 10 Static interaction
+fitted 10 Quality static
+fitted 10 Quality temporal
+fitted 10 HGB quality
+fitted 10 HGB full
+fitted 10 MLP full
+fitted 10 UATIF
+fitted 10 No quality
+fitted 10 No temporal
+fitted 10 No interactions
+fitted 10 No driver
+fitted 10 No telemetry
+evaluated clean
+evaluated iid10
+evaluated iid20
+evaluated iid30
+evaluated burst30
+evaluated noise
+evaluated quality_bias
+evaluated driver_shuffle
+simulation complete 8160 seed metrics
